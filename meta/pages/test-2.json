@@ -1,0 +1,18 @@
+{
+  "components": [
+    {
+      "components": [
+        {
+          "name": "pageTitle",
+          "size": "H1",
+          "text": "Test 2",
+          "type": "heading"
+        }
+      ],
+      "container": "main",
+      "type": "content"
+    }
+  ],
+  "layout": "MainBCScanAdmin",
+  "name": "Test 2"
+}

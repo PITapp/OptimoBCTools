@@ -1,0 +1,1 @@
+{"deploy":{"provider":"iis","server":"localhost","user":"","password":"","siteName":"Optimo BCTools","connectionStrings":{},"endPoints":{},"method":"computerName","removeAdditional":true}}

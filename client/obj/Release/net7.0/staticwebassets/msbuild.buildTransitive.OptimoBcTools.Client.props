@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\OptimoBcTools.Client.props" />
+</Project>
