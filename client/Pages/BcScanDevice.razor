@@ -1,0 +1,100 @@
+﻿@page "/bc-scan-device"
+@layout MainBcScanAdminLayout
+@inherits OptimoBcTools.Pages.BcScanDeviceComponent
+
+@using Radzen
+@using Radzen.Blazor
+@using OptimoBcTools.Models.DbOptimoBcLive
+<PageTitle>BcScanDevice</PageTitle>
+<RadzenContent Container="main">
+  <ChildContent>
+    <RadzenHeading Size="H1" Text="BcScanDevice">
+    </RadzenHeading>
+    <div class="row">
+      <div class="col-md-12">
+        <RadzenButton Icon="add_circle_outline" style="margin-bottom: 10px" Text="Add" Click="@Button0Click">
+        </RadzenButton>
+        <RadzenDataGrid @ref="grid0" AllowFiltering="true" FilterMode="Radzen.FilterMode.Advanced" AllowPaging="true" AllowSorting="true" Data="@getBcScanDevicesResult" Count="@getBcScanDevicesCount" TItem="OptimoBcTools.Models.DbOptimoBcLive.BcScanDevice" LoadData="@Grid0LoadData" RowUpdate="@Grid0RowUpdate" RowCreate="@Grid0RowCreate">
+          <Columns>
+            <RadzenDataGridColumn TItem="OptimoBcTools.Models.DbOptimoBcLive.BcScanDevice" Property="DeviceNummer" Title="Device Nummer">
+              <EditTemplate Context="optimoBcToolsModelsDbOptimoBcLiveBcScanDevice">
+                <RadzenTextBox style="width: 100%; display: block" @bind-Value="@(optimoBcToolsModelsDbOptimoBcLiveBcScanDevice.DeviceNummer)" Name="DeviceNummer">
+                </RadzenTextBox>
+              </EditTemplate>
+            </RadzenDataGridColumn>
+            <RadzenDataGridColumn TItem="OptimoBcTools.Models.DbOptimoBcLive.BcScanDevice" Property="RegistriertAm" FormatString="{0:d}" Title="Registriert Am">
+              <EditTemplate Context="optimoBcToolsModelsDbOptimoBcLiveBcScanDevice">
+                <RadzenDatePicker style="width: 100%; display: block" @bind-Value="@(optimoBcToolsModelsDbOptimoBcLiveBcScanDevice.RegistriertAm)" Name="RegistriertAm">
+                </RadzenDatePicker>
+              </EditTemplate>
+            </RadzenDataGridColumn>
+            <RadzenDataGridColumn TItem="OptimoBcTools.Models.DbOptimoBcLive.BcScanDevice" Property="DeviceTitel" Title="Device Titel">
+              <EditTemplate Context="optimoBcToolsModelsDbOptimoBcLiveBcScanDevice">
+                <RadzenTextBox style="width: 100%; display: block" @bind-Value="@(optimoBcToolsModelsDbOptimoBcLiveBcScanDevice.DeviceTitel)" Name="DeviceTitel">
+                </RadzenTextBox>
+              </EditTemplate>
+            </RadzenDataGridColumn>
+            <RadzenDataGridColumn TItem="OptimoBcTools.Models.DbOptimoBcLive.BcScanDevice" Property="Info" Title="Info">
+              <EditTemplate Context="optimoBcToolsModelsDbOptimoBcLiveBcScanDevice">
+                <RadzenTextBox style="width: 100%; display: block" @bind-Value="@(optimoBcToolsModelsDbOptimoBcLiveBcScanDevice.Info)" Name="Info">
+                </RadzenTextBox>
+              </EditTemplate>
+            </RadzenDataGridColumn>
+            <RadzenDataGridColumn TItem="OptimoBcTools.Models.DbOptimoBcLive.BcScanDevice" Property="DeviceID" Title="Device ID">
+            </RadzenDataGridColumn>
+            <RadzenDataGridColumn TItem="OptimoBcTools.Models.DbOptimoBcLive.BcScanDevice" Property="DeviceBezeichnung" Title="Device Bezeichnung">
+              <EditTemplate Context="optimoBcToolsModelsDbOptimoBcLiveBcScanDevice">
+                <RadzenTextBox style="width: 100%; display: block" @bind-Value="@(optimoBcToolsModelsDbOptimoBcLiveBcScanDevice.DeviceBezeichnung)" Name="DeviceBezeichnung">
+                </RadzenTextBox>
+                <RadzenRequiredValidator Popup="true" Component="DeviceBezeichnung">
+                </RadzenRequiredValidator>
+              </EditTemplate>
+            </RadzenDataGridColumn>
+            <RadzenDataGridColumn TItem="OptimoBcTools.Models.DbOptimoBcLive.BcScanDevice" Property="Abteilung" Title="Abteilung">
+              <EditTemplate Context="optimoBcToolsModelsDbOptimoBcLiveBcScanDevice">
+                <RadzenTextBox style="width: 100%; display: block" @bind-Value="@(optimoBcToolsModelsDbOptimoBcLiveBcScanDevice.Abteilung)" Name="Abteilung">
+                </RadzenTextBox>
+              </EditTemplate>
+            </RadzenDataGridColumn>
+            <RadzenDataGridColumn TItem="OptimoBcTools.Models.DbOptimoBcLive.BcScanDevice" Property="AnmeldungAm" FormatString="{0:d}" Title="Anmeldung Am">
+              <EditTemplate Context="optimoBcToolsModelsDbOptimoBcLiveBcScanDevice">
+                <RadzenDatePicker style="width: 100%; display: block" @bind-Value="@(optimoBcToolsModelsDbOptimoBcLiveBcScanDevice.AnmeldungAm)" Name="AnmeldungAm">
+                </RadzenDatePicker>
+              </EditTemplate>
+            </RadzenDataGridColumn>
+            <RadzenDataGridColumn TItem="OptimoBcTools.Models.DbOptimoBcLive.BcScanDevice" Property="AbmeldungAm" FormatString="{0:d}" Title="Abmeldung Am">
+              <EditTemplate Context="optimoBcToolsModelsDbOptimoBcLiveBcScanDevice">
+                <RadzenDatePicker style="width: 100%; display: block" @bind-Value="@(optimoBcToolsModelsDbOptimoBcLiveBcScanDevice.AbmeldungAm)" Name="AbmeldungAm">
+                </RadzenDatePicker>
+              </EditTemplate>
+            </RadzenDataGridColumn>
+            <RadzenDataGridColumn TItem="OptimoBcTools.Models.DbOptimoBcLive.BcScanDevice" Property="DeviceTyp" Title="Device Typ">
+              <EditTemplate Context="optimoBcToolsModelsDbOptimoBcLiveBcScanDevice">
+                <RadzenTextBox style="width: 100%; display: block" @bind-Value="@(optimoBcToolsModelsDbOptimoBcLiveBcScanDevice.DeviceTyp)" Name="DeviceTyp">
+                </RadzenTextBox>
+              </EditTemplate>
+            </RadzenDataGridColumn>
+            <RadzenDataGridColumn TItem="OptimoBcTools.Models.DbOptimoBcLive.BcScanDevice" Filterable="false" Sortable="false" TextAlign="TextAlign.Center" Width="70px">
+              <Template Context="optimoBcToolsModelsDbOptimoBcLiveBcScanDevice">
+                <RadzenButton Icon="edit" Size="ButtonSize.Small" Click="@((args) =>EditButtonClick(args, optimoBcToolsModelsDbOptimoBcLiveBcScanDevice))">
+                </RadzenButton>
+              </Template>
+              <EditTemplate Context="optimoBcToolsModelsDbOptimoBcLiveBcScanDevice">
+                <RadzenButton Icon="save" Size="ButtonSize.Small" Click="@((args) =>SaveButtonClick(args, optimoBcToolsModelsDbOptimoBcLiveBcScanDevice))">
+                </RadzenButton>
+                <RadzenButton ButtonStyle="ButtonStyle.Secondary" Icon="cancel" Size="ButtonSize.Small" Click="@((args) =>CancelButtonClick(args, optimoBcToolsModelsDbOptimoBcLiveBcScanDevice))">
+                </RadzenButton>
+              </EditTemplate>
+            </RadzenDataGridColumn>
+            <RadzenDataGridColumn TItem="OptimoBcTools.Models.DbOptimoBcLive.BcScanDevice" Filterable="false" Sortable="false" Width="70px" TextAlign="TextAlign.Center">
+              <Template Context="optimoBcToolsModelsDbOptimoBcLiveBcScanDevice">
+                <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="close" Size="ButtonSize.Small" Click="@((args) =>GridDeleteButtonClick(args, optimoBcToolsModelsDbOptimoBcLiveBcScanDevice))" @onclick:stopPropagation="true">
+                </RadzenButton>
+              </Template>
+            </RadzenDataGridColumn>
+          </Columns>
+        </RadzenDataGrid>
+      </div>
+    </div>
+  </ChildContent>
+</RadzenContent>

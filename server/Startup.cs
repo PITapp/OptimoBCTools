@@ -18,6 +18,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 
+using OptimoBcTools.Data;
 
 using Microsoft.OData.ModelBuilder;
 using Microsoft.AspNetCore.OData;
@@ -54,6 +55,49 @@ namespace OptimoBcTools
                         .AllowCredentials();
                     });
             });
+            var oDataBuilder = new ODataConventionModelBuilder();
+
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcAnalysenViewItem>("BcAnalysenViewItems");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcAnalysenViewItemLedgerEntry>("BcAnalysenViewItemLedgerEntries");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcAnalysenViewProduzierteArtikelJahrMonat>("BcAnalysenViewProduzierteArtikelJahrMonats");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanBenutzer>("BcScanBenutzers");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanDevice>("BcScanDevices");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanProtokollLadeliste>("BcScanProtokollLadelistes");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanProtokollUmlagern>("BcScanProtokollUmlagerns");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanViewArtikel>("BcScanViewArtikels");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanViewArtikelLagerbestand>("BcScanViewArtikelLagerbestands");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanViewBenutzer>("BcScanViewBenutzers");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanViewDeliveryTour>("BcScanViewDeliveryTours");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanViewDeliveryTourGroupedLine>("BcScanViewDeliveryTourGroupedLines");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanViewDeliveryTourPlanHeader>("BcScanViewDeliveryTourPlanHeaders");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanViewDeliveryTourPlanLine>("BcScanViewDeliveryTourPlanLines");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanViewDevice>("BcScanViewDevices");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanViewItem>("BcScanViewItems");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanViewItemJournalLine>("BcScanViewItemJournalLines");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanViewItemJournalLineUmlagernNeueZeilenNr>("BcScanViewItemJournalLineUmlagernNeueZeilenNrs");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanViewLadelisteKopf>("BcScanViewLadelisteKopfs");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanViewLadelisteZeilen>("BcScanViewLadelisteZeilens");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanViewProductionOrder>("BcScanViewProductionOrders");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanViewProductionOrderLine>("BcScanViewProductionOrderLines");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanViewProductionOrderProduced>("BcScanViewProductionOrderProduceds");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanViewProtokollLadeliste>("BcScanViewProtokollLadelistes");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanViewProtokollUmlagern>("BcScanViewProtokollUmlagerns");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanViewUmlagerungLetzteNummer>("BcScanViewUmlagerungLetzteNummers");
+
+            this.OnConfigureOData(oDataBuilder);
+
+
+            var model = oDataBuilder.GetEdmModel();
+            services.AddControllers().AddOData(opt => { 
+              opt.AddRouteComponents("odata/dbOptimoBCLive", model).Count().Filter().OrderBy().Expand().Select().SetMaxTop(null).TimeZone = TimeZoneInfo.Utc;
+            });
+
+            
+
+            services.AddDbContext<OptimoBcTools.Data.DbOptimoBcLiveContext>(options =>
+            {
+              options.UseSqlServer(Configuration.GetConnectionString("dbOptimoBCLiveConnection"));
+            });
 
             services.AddRazorPages();
 
@@ -61,6 +105,7 @@ namespace OptimoBcTools
         }
 
         partial void OnConfigure(IApplicationBuilder app, IWebHostEnvironment env);
+        partial void OnConfigureOData(ODataConventionModelBuilder builder);
         partial void OnConfiguring(IApplicationBuilder app, IWebHostEnvironment env);
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

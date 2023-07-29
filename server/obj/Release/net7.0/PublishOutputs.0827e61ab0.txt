@@ -30,6 +30,7 @@ C:\Apps\Radzen\OptimoBCTools\server\bin\Release\net7.0\publish\Microsoft.EntityF
 C:\Apps\Radzen\OptimoBCTools\server\bin\Release\net7.0\publish\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Apps\Radzen\OptimoBCTools\server\bin\Release\net7.0\publish\Microsoft.EntityFrameworkCore.Design.dll
 C:\Apps\Radzen\OptimoBCTools\server\bin\Release\net7.0\publish\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Apps\Radzen\OptimoBCTools\server\bin\Release\net7.0\publish\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Apps\Radzen\OptimoBCTools\server\bin\Release\net7.0\publish\Microsoft.Extensions.DependencyModel.dll
 C:\Apps\Radzen\OptimoBCTools\server\bin\Release\net7.0\publish\Microsoft.Identity.Client.dll
 C:\Apps\Radzen\OptimoBCTools\server\bin\Release\net7.0\publish\Microsoft.Identity.Client.Extensions.Msal.dll

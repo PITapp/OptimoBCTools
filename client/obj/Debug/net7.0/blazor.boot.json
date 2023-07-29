@@ -201,13 +201,13 @@
       "mscorlib.dll": "sha256-pO\/W4w\/X+UjVMUMaxE5tYTQ0tILP+hmMu0zi0MSVBLc=",
       "netstandard.dll": "sha256-kj5cBXzwPYC+HD+P8+6VybY34JtEzjXjMIHXEI3hIiM=",
       "System.Private.CoreLib.dll": "sha256-Awk1lCiFfH7r9AAZfBtGqS8rhv6UJ5lUu3yF6HDH3tQ=",
-      "OptimoBcTools.Client.dll": "sha256-5YetNQ8W1F0rcImR44QW9SFyqn4yt+t0JYCxaHQ++0U="
+      "OptimoBcTools.Client.dll": "sha256-Kzkqg\/aXexsKV400kPuE3wYknPLwuyTqAWCCpqCMQ5M="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "OptimoBcTools.Client.pdb": "sha256-st9Wc9Ny2ZKjWo+gqeO0FLYNgTZip2NVk9lCjuZ9MyU="
+      "OptimoBcTools.Client.pdb": "sha256-c6IsZ+U0oBLV7medUG1WzF+oNn8wSMUup81bBBpU+hw="
     },
     "runtime": {
       "dotnet.7.0.0.1idtojogup.js": "sha256-2jNLve8W0sST0LAebgAc1IwSnGhkbjOKO8QPWWiJssI=",

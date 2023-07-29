@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vYhBHzB6g07f0+8mHtfx7aYIq6Z4kKFb16ueonDjx8A=",
+  "Hash": "L4cwk7lgvOKU6DCY/x87OqjZY28dPqsMHT+vJB/A1pg=",
   "Source": "OptimoBcTools.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -7036,6 +7036,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\service-worker.published.js"
+    },
+    {
+      "Identity": "C:\\Apps\\Radzen\\OptimoBCTools\\client\\wwwroot\\assets\\css\\fluent copy.css",
+      "SourceId": "OptimoBcTools.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Apps\\Radzen\\OptimoBCTools\\client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "assets/css/fluent copy.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\css\\fluent copy.css"
     },
     {
       "Identity": "C:\\Apps\\Radzen\\OptimoBCTools\\client\\wwwroot\\assets\\css\\fluent.css",

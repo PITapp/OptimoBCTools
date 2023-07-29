@@ -99,3 +99,4 @@ C:\Apps\Radzen\OptimoBCTools\server\obj\Release\net7.0\refint\OptimoBcTools.Serv
 C:\Apps\Radzen\OptimoBCTools\server\obj\Release\net7.0\OptimoBcTools.Server.pdb
 C:\Apps\Radzen\OptimoBCTools\server\obj\Release\net7.0\OptimoBcTools.Server.genruntimeconfig.cache
 C:\Apps\Radzen\OptimoBCTools\server\obj\Release\net7.0\ref\OptimoBcTools.Server.dll
+C:\Apps\Radzen\OptimoBCTools\server\bin\Release\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll

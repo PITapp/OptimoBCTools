@@ -24,11 +24,13 @@
   "namespaces": [],
   "navigation": [
     "Test 1",
-    "Test 2"
+    "Test 2",
+    "BcScanDevice"
   ],
   "pages": [
     "Test 1",
-    "Test 2"
+    "Test 2",
+    "BcScanDevice"
   ],
   "port": 8000,
   "pwa": true,
@@ -210,7 +212,7 @@
     "$panel-hover-color": "#201f1e",
     "$panel-menu-background-color": "#ffffff",
     "$panel-menu-hover-background-color": "#f3f2f1",
-    "$panel-menu-icon-color": "inherit",
+    "$panel-menu-icon-color": "#d0021b",
     "$panel-menu-item-2nd-level-active-background-color": "#f3f2f1",
     "$panel-menu-item-2nd-level-active-color": "inherit",
     "$panel-menu-item-2nd-level-hover-background-color": "#f3f2f1",

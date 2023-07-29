@@ -3,6 +3,8 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components;
+using OptimoBcTools.Models;
+using OptimoBcTools.Models.DbOptimoBcLive;
 using Radzen;
 
 namespace OptimoBcTools

@@ -214,9 +214,11 @@
             {
               "items": [
                 {
+                  "expanded": false,
                   "icon": "groups",
                   "items": [
                     {
+                      "icon": "equalizer",
                       "text": "Analyse 1",
                       "value": ""
                     },
@@ -239,6 +241,7 @@
                   "text": "Finanzmanagement"
                 },
                 {
+                  "expanded": false,
                   "icon": "shopping_cart",
                   "items": [
                     {
@@ -351,13 +354,13 @@
             {
               "icon": "",
               "name": "linkKontakt",
-              "path": "kontakt",
+              "path": "",
               "style": {
                 "color": "#9D1F16",
                 "float": "right",
                 "paddingTop": "2px"
               },
-              "text": "Kontakt",
+              "text": "BCTools",
               "type": "link"
             }
           ],

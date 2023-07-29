@@ -2,6 +2,10 @@
   "assets": [
     {
       "hash": "sha256-39oDQ6yePp5rGSDonm1ttZ1STrDtREIjATeCCUW6kWs=",
+      "url": "assets\/css\/fluent copy.css"
+    },
+    {
+      "hash": "sha256-jQrbldkX6ZSg3UH6ROpEGQ8on0vT6QVF9GHGcuT\/tv0=",
       "url": "assets\/css\/fluent.css"
     },
     {
@@ -921,11 +925,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-5YetNQ8W1F0rcImR44QW9SFyqn4yt+t0JYCxaHQ++0U=",
+      "hash": "sha256-nC1VbIQAU+miVUo6JhJQlnctEaAMO25CKShkYkZz4\/U=",
       "url": "_framework\/OptimoBcTools.Client.dll"
     },
     {
-      "hash": "sha256-st9Wc9Ny2ZKjWo+gqeO0FLYNgTZip2NVk9lCjuZ9MyU=",
+      "hash": "sha256-CxK6gfdXxiOoRON1Iv7ntcip4y0pFEvLnUo+hu1UJwc=",
       "url": "_framework\/OptimoBcTools.Client.pdb"
     },
     {
@@ -933,7 +937,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-7NBeoXutbz0rfWPKXM20Jo7TWi5ECAEtNCnxpybcfBA=",
+      "hash": "sha256-\/CizqjqqcqVqKzJw7wWnRWqS8gTTP6MSinhhGC8t2k0=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1069,5 +1073,5 @@
       "url": "_content\/Radzen.Blazor\/Radzen.Blazor.js"
     }
   ],
-  "version": "UvYbNKa1"
+  "version": "\/l69hg0w"
 };

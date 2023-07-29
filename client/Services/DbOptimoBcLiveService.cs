@@ -25,7 +25,7 @@ namespace OptimoBcTools
             this.httpClient = httpClient;
 
             this.navigationManager = navigationManager;
-            this.baseUri = new Uri($"{navigationManager.BaseUri}ttps://localhost:5001/odata/dbOptimoBCLive/");
+            this.baseUri = new Uri($"{navigationManager.BaseUri}odata/dbOptimoBCLive/");
         }
 
         public async System.Threading.Tasks.Task ExportBcAnalysenViewItemsToExcel(Radzen.Query query = null, string fileName = null)

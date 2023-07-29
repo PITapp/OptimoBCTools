@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oL5mjMV3HLCJmMgDbqCHwOYRIQuPCAzpfDiNH/v/UKkDFi9ce1RuPl4aKz8IzkbG0bBe7xeDVtmzqEvtOS3Z/g==",
+  "dgSpecHash": "Va5axkVd40I0jYD0RFGM+gmc7fO7p2hH75Ftg46PheeIMiVoytop421kNW1EmSYIsklMmyYd+Pr4Cu3Iyi5qDQ==",
   "success": true,
   "projectFilePath": "C:\\Apps\\Radzen\\OptimoBCTools\\server\\OptimoBcTools.Server.csproj",
   "expectedPackageFiles": [
@@ -31,6 +31,7 @@
     "C:\\Users\\AdminPITapp.OPTIMO\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.0\\microsoft.entityframeworkcore.analyzers.7.0.0.nupkg.sha512",
     "C:\\Users\\AdminPITapp.OPTIMO\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.0\\microsoft.entityframeworkcore.design.7.0.0.nupkg.sha512",
     "C:\\Users\\AdminPITapp.OPTIMO\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.0\\microsoft.entityframeworkcore.relational.7.0.0.nupkg.sha512",
+    "C:\\Users\\AdminPITapp.OPTIMO\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.0\\microsoft.entityframeworkcore.sqlserver.7.0.0.nupkg.sha512",
     "C:\\Users\\AdminPITapp.OPTIMO\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\AdminPITapp.OPTIMO\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "C:\\Users\\AdminPITapp.OPTIMO\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

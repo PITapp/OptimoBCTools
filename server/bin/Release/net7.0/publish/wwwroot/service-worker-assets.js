@@ -33,7 +33,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-a1dGTnJTj9cUAitaNg4qG7x31DDb01TEzSrldFgHCvE=",
+      "hash": "sha256-Sa+YEuYgyojGcgyKX6kHIjw\/E7E2zPSGSlD1zmHuqCk=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -53,7 +53,7 @@
       "url": "_framework\/Microsoft.AspNetCore.Components.WebAssembly.dll"
     },
     {
-      "hash": "sha256-Wgc5b866pnKeRrjnIBSocf+73zEVDyZ+pbXtVAgb3sU=",
+      "hash": "sha256-IUJDJO4hCqLEVQnZyy42tSpUFxMCnxYcPsDJ+cQvOWY=",
       "url": "_framework\/Microsoft.CSharp.dll"
     },
     {
@@ -101,7 +101,7 @@
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-EdussgRJlbuhEsy60lRGCbBR1RWu8jgNtuIQuy1cMn8=",
+      "hash": "sha256-+xaCIVkGfblaQ2D2pm037seaxlQ6XZZ+yf0IwKE8Mv4=",
       "url": "_framework\/OptimoBcTools.Client.dll"
     },
     {
@@ -129,7 +129,7 @@
       "url": "_framework\/System.Collections.Specialized.dll"
     },
     {
-      "hash": "sha256-zwU9TwfNiNZDPBrjegSsnVyESPxzSS06wYY\/hK32DgM=",
+      "hash": "sha256-EnEX5QuMG\/w9to\/sqdS3kw5mvKzgntFxTtrEyAWoJnc=",
       "url": "_framework\/System.ComponentModel.Annotations.dll"
     },
     {
@@ -181,7 +181,7 @@
       "url": "_framework\/System.Memory.dll"
     },
     {
-      "hash": "sha256-ARDjinagAj94q1hpDGrHWXzZON0qpl1GQt2hOlTC1+s=",
+      "hash": "sha256-FVn2fK0WxwxNgqFeWa9d462\/kcqAqmpfSNb14P4YaLk=",
       "url": "_framework\/System.Net.Http.dll"
     },
     {
@@ -193,7 +193,7 @@
       "url": "_framework\/System.ObjectModel.dll"
     },
     {
-      "hash": "sha256-zEVDQkA\/wMqocpMSIZxQ06AXv\/EU4bOJbiRDVDVronU=",
+      "hash": "sha256-Qlm757rsxI5i5hOY8dEGa0s7xNX8fMpuSzZcQRJtHow=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
@@ -225,7 +225,7 @@
       "url": "_framework\/System.Reflection.Primitives.dll"
     },
     {
-      "hash": "sha256-d1riiF1F\/2do8JVyisZgu7mgW4JfUaeBJTTdhdZKjoc=",
+      "hash": "sha256-GhJ2crdxOY5YT+qfV5jkRR88DdKQbCxAnsjAxiSxRVI=",
       "url": "_framework\/System.Runtime.dll"
     },
     {
@@ -509,5 +509,5 @@
       "url": "_content\/Radzen.Blazor\/Radzen.Blazor.js"
     }
   ],
-  "version": "i5PQKiBq"
+  "version": "BWNHmMMD"
 };

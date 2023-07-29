@@ -16,6 +16,7 @@
           "Microsoft.Data.SqlClient": "5.1.0-preview1.22279.3",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.Design": "7.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
           "Newtonsoft.Json": "13.0.1",
           "OptimoBcTools.Client": "1.0.0",
           "System.ComponentModel.Annotations": "6.0.0-preview.4.21253.7"
@@ -292,6 +293,18 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51807"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.SqlServer/7.0.0": {
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "5.1.0-preview1.22279.3",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.22.51807"
           }
@@ -1087,6 +1100,13 @@
       "sha512": "sha512-eQiYygtR2xZ0Uy7KtiFRHpoEx/U8xNwbNRgu1pEJgSxbJLtg6tDL1y2YcIbSuIRSNEljXIIHq/apEhGm1QL70g==",
       "path": "microsoft.entityframeworkcore.relational/7.0.0",
       "hashPath": "microsoft.entityframeworkcore.relational.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.SqlServer/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+43PF5c5s8VQQl1ZKCQmkRGA/C1agHki31DgJGS0In+KI/xiUanqN3Z8v4BKTWBQYG3W9/me7Z199gOX6OKb+g==",
+      "path": "microsoft.entityframeworkcore.sqlserver/7.0.0",
+      "hashPath": "microsoft.entityframeworkcore.sqlserver.7.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
       "type": "package",

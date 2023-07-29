@@ -27,6 +27,8 @@ namespace OptimoBcTools
             builder.Services.AddScoped<TooltipService>();
             builder.Services.AddScoped<ContextMenuService>();
 
+            builder.Services.AddScoped<DbOptimoBcLiveService>();
+
             OnConfigureBuilder(builder);
 
             var host = builder.Build();

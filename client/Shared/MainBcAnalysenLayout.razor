@@ -2,6 +2,7 @@
 
 @using Radzen
 @using Radzen.Blazor
+@using OptimoBcTools.Models.DbOptimoBcLive
 @using OptimoBcTools.Pages
 <RadzenDialog />
 <RadzenNotification />
@@ -48,9 +49,9 @@
       <ChildContent>
         <RadzenPanelMenu style="height: 100%">
           <ChildContent>
-            <RadzenPanelMenuItem Icon="groups" Path="test-1" Text="Geschäftsführung">
+            <RadzenPanelMenuItem Expanded="false" Icon="groups" Path="test-1" Text="Geschäftsführung">
               <ChildContent>
-                <RadzenPanelMenuItem Text="Analyse 1">
+                <RadzenPanelMenuItem Icon="equalizer" Text="Analyse 1">
                 </RadzenPanelMenuItem>
                 <RadzenPanelMenuItem Text="Analyse 2">
                 </RadzenPanelMenuItem>
@@ -60,7 +61,7 @@
             </RadzenPanelMenuItem>
             <RadzenPanelMenuItem Icon="account_balance" Text="Finanzmanagement">
             </RadzenPanelMenuItem>
-            <RadzenPanelMenuItem Icon="shopping_cart" Text="Einkauf">
+            <RadzenPanelMenuItem Expanded="false" Icon="shopping_cart" Text="Einkauf">
               <ChildContent>
                 <RadzenPanelMenuItem Path="test-2" Text="Fertigung: Stückzahlen LA und MA">
                 </RadzenPanelMenuItem>
@@ -97,7 +98,7 @@
         </RadzenLink>
         <RadzenLabel style="color: #e5ecef; float: right; margin-top: 2px; padding-left: 10px; padding-right: 10px" Text="|">
         </RadzenLabel>
-        <RadzenLink Path="kontakt" style="color: #9D1F16; float: right; padding-top: 2px" Text="Kontakt">
+        <RadzenLink style="color: #9D1F16; float: right; padding-top: 2px" Text="BCTools">
         </RadzenLink>
       </ChildContent>
     </RadzenFooter>
