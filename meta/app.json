@@ -16,6 +16,7 @@
   "javaScriptFiles": [],
   "layouts": [
     "Login",
+    "Main",
     "MainBCAnalysen",
     "MainBCScanAdmin"
   ],
@@ -23,14 +24,18 @@
   "name": "Optimo BCTools",
   "namespaces": [],
   "navigation": [
-    "Test 1",
+    "BCAnalysen",
     "Test 2",
-    "BcScanDevice"
+    "BcScanDevice",
+    "Dashboard",
+    "Einstellungen"
   ],
   "pages": [
-    "Test 1",
+    "BCAnalysen",
     "Test 2",
-    "BcScanDevice"
+    "BcScanDevice",
+    "Dashboard",
+    "Einstellungen"
   ],
   "port": 8000,
   "pwa": true,
@@ -38,7 +43,7 @@
   "serverPort": 5000,
   "serverProject": true,
   "serverVersion": "7",
-  "startPage": "Test 1",
+  "startPage": "Dashboard",
   "theme": "fluent",
   "themeSettings": {
     "$accordion-border-radius": "4px",

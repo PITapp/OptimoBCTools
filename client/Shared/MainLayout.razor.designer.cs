@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Radzen;
 using Radzen.Blazor;
+using OptimoBcTools.Models.DbOptimoBcLive;
 using OptimoBcTools.Pages;
 
 namespace OptimoBcTools.Layouts
@@ -26,6 +27,9 @@ namespace OptimoBcTools.Layouts
 
         [Inject]
         protected NotificationService NotificationService { get; set; }
+        [Inject]
+        protected DbOptimoBcLiveService DbOptimoBcLive { get; set; }
+
         protected RadzenSidebar sidebar0;
         protected RadzenBody body0;
 

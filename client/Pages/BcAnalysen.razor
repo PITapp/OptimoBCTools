@@ -1,0 +1,38 @@
+﻿@page "/bc-analysen"
+@layout MainBcAnalysenLayout
+@inherits OptimoBcTools.Pages.BcAnalysenComponent
+
+@using Radzen
+@using Radzen.Blazor
+@using OptimoBcTools.Models.DbOptimoBcLive
+<PageTitle>BCAnalysen</PageTitle>
+<RadzenContent Container="main">
+  <ChildContent>
+    <div style="border-bottom: 1px solid #eaeef0; height: 50px; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0" class="row">
+      <div class="col-md-6 align-items-center d-flex">
+        <RadzenHeading Size="H3" style="color: #5d717b; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0" Text="Fertigung: Stückzahlen LA und MA">
+        </RadzenHeading>
+      </div>
+      <div class="col-md-6 justify-content-end d-flex align-items-center" style="padding-right: 0">
+        <RadzenButton Icon="settings" style="background-color: rgba(0, 0, 0, 0); border-radius: 0; color: #5d717b; font-weight: normal; height: 50px; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; width: 100px">
+          <ChildContent>
+            <RadzenIcon Icon="upgrade" style="font-size: 20px; font-weight: normal">
+            </RadzenIcon>
+            <RadzenLabel Text="Export">
+            </RadzenLabel>
+          </ChildContent>
+        </RadzenButton>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <RadzenTabs>
+          <Tabs>
+            <RadzenTabsItem Text="Tab 1">
+            </RadzenTabsItem>
+          </Tabs>
+        </RadzenTabs>
+      </div>
+    </div>
+  </ChildContent>
+</RadzenContent>

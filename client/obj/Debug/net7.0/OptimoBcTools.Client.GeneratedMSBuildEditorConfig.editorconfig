@@ -20,12 +20,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Apps/Radzen/OptimoBCTools/client/Pages/BcAnalysen.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmNBbmFseXNlbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Apps/Radzen/OptimoBCTools/client/Pages/BcScanDevice.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmNTY2FuRGV2aWNlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Apps/Radzen/OptimoBCTools/client/Pages/Test1.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdDEucmF6b3I=
+[C:/Apps/Radzen/OptimoBCTools/client/Pages/Dashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Apps/Radzen/OptimoBCTools/client/Pages/Einstellungen.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWluc3RlbGx1bmdlbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Apps/Radzen/OptimoBCTools/client/Pages/Test2.razor]

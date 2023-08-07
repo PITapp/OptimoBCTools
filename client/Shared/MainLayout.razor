@@ -2,6 +2,7 @@
 
 @using Radzen
 @using Radzen.Blazor
+@using OptimoBcTools.Models.DbOptimoBcLive
 @using OptimoBcTools.Pages
 <RadzenDialog />
 <RadzenNotification />
@@ -24,7 +25,7 @@
             </RadzenImage>
             <RadzenLabel style="color: #575757; float: none; font-size: 12px; padding-left: 10px; padding-right: 12px" Text="|">
             </RadzenLabel>
-            <RadzenLabel style="color: #9D1F16; float: none; font-family: verdana,geneva,sans-serif; font-size: 14px; font-weight: normal" Text="BC Analysen">
+            <RadzenLabel style="color: #9D1F16; float: none; font-family: verdana,geneva,sans-serif; font-size: 14px; font-weight: normal" Text="BC Tools">
             </RadzenLabel>
           </div>
           <div class="text-lg-right align-items-center d-flex justify-content-end col-md-6" style="background-color: rgba(0, 0, 0, 0); float: right; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0">
@@ -48,31 +49,11 @@
       <ChildContent>
         <RadzenPanelMenu style="height: 100%">
           <ChildContent>
-            <RadzenPanelMenuItem Icon="groups" Path="test-1" Text="Geschäftsführung">
-              <ChildContent>
-                <RadzenPanelMenuItem Text="Analyse 1">
-                </RadzenPanelMenuItem>
-                <RadzenPanelMenuItem Text="Analyse 2">
-                </RadzenPanelMenuItem>
-                <RadzenPanelMenuItem Text="Analyse 3">
-                </RadzenPanelMenuItem>
-              </ChildContent>
+            <RadzenPanelMenuItem Expanded="false" Icon="leaderboard" Path="bc-analysen" Text="BC Analysen">
             </RadzenPanelMenuItem>
-            <RadzenPanelMenuItem Icon="account_balance" Text="Finanzmanagement">
+            <RadzenPanelMenuItem Icon="fact_check" Text="BC Scan Admin">
             </RadzenPanelMenuItem>
-            <RadzenPanelMenuItem Icon="shopping_cart" Text="Einkauf">
-              <ChildContent>
-                <RadzenPanelMenuItem Path="test-2" Text="Fertigung: Stückzahlen LA und MA">
-                </RadzenPanelMenuItem>
-              </ChildContent>
-            </RadzenPanelMenuItem>
-            <RadzenPanelMenuItem Icon="record_voice_over" Text="Verkauf">
-            </RadzenPanelMenuItem>
-            <RadzenPanelMenuItem Icon="business_center" Text="Außendienst">
-            </RadzenPanelMenuItem>
-            <RadzenPanelMenuItem Icon="handyman" Text="Produktion">
-            </RadzenPanelMenuItem>
-            <RadzenPanelMenuItem Icon="batch_prediction" Text="Produktentwicklung">
+            <RadzenPanelMenuItem Icon="settings" Path="einstellungen" Text="Einstellungen">
             </RadzenPanelMenuItem>
           </ChildContent>
         </RadzenPanelMenu>
@@ -97,7 +78,7 @@
         </RadzenLink>
         <RadzenLabel style="color: #e5ecef; float: right; margin-top: 2px; padding-left: 10px; padding-right: 10px" Text="|">
         </RadzenLabel>
-        <RadzenLink Path="kontakt" style="color: #9D1F16; float: right; padding-top: 2px" Text="Kontakt">
+        <RadzenLink style="color: #9D1F16; float: right; padding-top: 2px" Text="BC Tools">
         </RadzenLink>
       </ChildContent>
     </RadzenFooter>

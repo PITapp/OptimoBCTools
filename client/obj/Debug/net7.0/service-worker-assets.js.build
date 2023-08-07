@@ -925,11 +925,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-nC1VbIQAU+miVUo6JhJQlnctEaAMO25CKShkYkZz4\/U=",
+      "hash": "sha256-ULshu+t8o2+G4NQZPMXIkz\/U+mBDQbu+EIEOKbAIyWk=",
       "url": "_framework\/OptimoBcTools.Client.dll"
     },
     {
-      "hash": "sha256-CxK6gfdXxiOoRON1Iv7ntcip4y0pFEvLnUo+hu1UJwc=",
+      "hash": "sha256-hU7S6CjFPjM4eeGbEBHmyAnYKpF4nJ\/9fyXNW54kWG0=",
       "url": "_framework\/OptimoBcTools.Client.pdb"
     },
     {
@@ -937,7 +937,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-\/CizqjqqcqVqKzJw7wWnRWqS8gTTP6MSinhhGC8t2k0=",
+      "hash": "sha256-LEvVdvwQj6IFuRVekBVIb2vRjAE\/8OIvVAklJTjC6zU=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1073,5 +1073,5 @@
       "url": "_content\/Radzen.Blazor\/Radzen.Blazor.js"
     }
   ],
-  "version": "\/l69hg0w"
+  "version": "4tlo5fYR"
 };

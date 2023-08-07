@@ -26595,3 +26595,8 @@ button.rz-colorpicker-trigger .rz-fileupload-row .rz-paginator-element .rz-icon-
 .rz-panel-menu .rz-navigation-item-wrapper-active {
   background-color: #F6F7F8;
 }
+
+/* --- HTML Editor --- */
+.rz-html-editor {
+  border-radius: 0;
+}
