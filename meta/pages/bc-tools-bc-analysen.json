@@ -21,7 +21,7 @@
                     "paddingRight": "0",
                     "paddingTop": "0"
                   },
-                  "text": "Analysen",
+                  "text": "BC Analysen",
                   "type": "heading"
                 }
               ],
@@ -32,8 +32,16 @@
               "class": "col-md-6 justify-content-end d-flex align-items-center",
               "components": [
                 {
-                  "icon": "settings",
-                  "name": "button0",
+                  "events": {
+                    "click": [
+                      {
+                        "path": "bc-analysen",
+                        "type": "navigate"
+                      }
+                    ]
+                  },
+                  "icon": "",
+                  "name": "button2",
                   "style": {
                     "backgroundColor": "rgba(0, 0, 0, 0)",
                     "borderRadius": "0",
@@ -52,9 +60,10 @@
                   },
                   "template": [
                     {
-                      "icon": "upgrade",
+                      "icon": "read_more",
                       "name": "icon0",
                       "style": {
+                        "color": "#5d717b",
                         "fontSize": "20px",
                         "fontWeight": "normal"
                       },
@@ -62,8 +71,11 @@
                     },
                     {
                       "name": "label0",
+                      "style": {
+                        "marginLeft": "7px"
+                      },
                       "template": "",
-                      "text": "Export",
+                      "text": "Öffnen",
                       "type": "label"
                     }
                   ],
@@ -118,14 +130,10 @@
                         }
                       ],
                       "icon": "",
-                      "text": "Auswahl"
-                    },
-                    {
-                      "text": "Archivierte Ergebnisse"
+                      "text": "Info"
                     }
                   ],
                   "name": "tabs0",
-                  "tabPosition": "TabPosition.Top",
                   "type": "tabs"
                 }
               ],
@@ -153,6 +161,6 @@
       "type": "content"
     }
   ],
-  "layout": "MainBCAnalysen",
-  "name": "BCAnalysen"
+  "layout": "Main",
+  "name": "BCTools_BCAnalysen"
 }

@@ -2,17 +2,33 @@
 using System.Linq;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.JSInterop;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Radzen;
 using Radzen.Blazor;
 using OptimoBcTools.Models.DbOptimoBcLive;
-using OptimoBcTools.Pages;
+using OptimoBcTools.Client.Pages;
 
-namespace OptimoBcTools.Layouts
+namespace OptimoBcTools.Pages
 {
-    public partial class MainLayoutComponent : LayoutComponentBase
+    public partial class BcAnalysen0001Component : ComponentBase
     {
+        [Parameter(CaptureUnmatchedValues = true)]
+        public IReadOnlyDictionary<string, dynamic> Attributes { get; set; }
+
+        public void Reload()
+        {
+            InvokeAsync(StateHasChanged);
+        }
+
+        public void OnPropertyChanged(PropertyChangedEventArgs args)
+        {
+        }
+
+        [Inject]
+        protected IJSRuntime JSRuntime { get; set; }
+
         [Inject]
         protected NavigationManager UriHelper { get; set; }
 
@@ -27,17 +43,8 @@ namespace OptimoBcTools.Layouts
 
         [Inject]
         protected NotificationService NotificationService { get; set; }
+
         [Inject]
         protected DbOptimoBcLiveService DbOptimoBcLive { get; set; }
-
-        protected RadzenSidebar sidebar0;
-        protected RadzenBody body0;
-
-
-        protected async System.Threading.Tasks.Task Button1Click(MouseEventArgs args)
-        {
-            await InvokeAsync(() => { sidebar0.Toggle(); });
-await InvokeAsync(() => { body0.Toggle(); });
-        }
     }
 }

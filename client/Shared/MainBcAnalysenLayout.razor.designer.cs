@@ -39,18 +39,5 @@ namespace OptimoBcTools.Layouts
             await InvokeAsync(() => { sidebar0.Toggle(); });
 await InvokeAsync(() => { body0.Toggle(); });
         }
-
-        protected async System.Threading.Tasks.Task Image0Click(dynamic args)
-        {
-            await InvokeAsync(() => { sidebar0.Toggle(); });
-
-            await InvokeAsync(() => { body0.Toggle(); });
-        }
-
-        protected async System.Threading.Tasks.Task Button2Click(MouseEventArgs args)
-        {
-            await InvokeAsync(() => { sidebar0.Toggle(); });
-await InvokeAsync(() => { body0.Toggle(); });
-        }
     }
 }

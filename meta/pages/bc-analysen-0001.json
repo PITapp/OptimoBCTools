@@ -21,7 +21,7 @@
                     "paddingRight": "0",
                     "paddingTop": "0"
                   },
-                  "text": "Analysen",
+                  "text": "Fertigung: Stückzahlen LA und MA",
                   "type": "heading"
                 }
               ],
@@ -118,10 +118,11 @@
                         }
                       ],
                       "icon": "",
-                      "text": "Auswahl"
+                      "text": "Daten"
                     },
                     {
-                      "text": "Archivierte Ergebnisse"
+                      "icon": "",
+                      "text": "Grafische Auswertung"
                     }
                   ],
                   "name": "tabs0",
@@ -154,5 +155,5 @@
     }
   ],
   "layout": "MainBCAnalysen",
-  "name": "BCAnalysen"
+  "name": "BCAnalysen0001"
 }

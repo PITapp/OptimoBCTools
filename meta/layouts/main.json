@@ -54,16 +54,7 @@
                     },
                     {
                       "events": {
-                        "click": [
-                          {
-                            "code": "await InvokeAsync(() => { sidebar0.Toggle(); });",
-                            "type": "execute"
-                          },
-                          {
-                            "code": "await InvokeAsync(() => { body0.Toggle(); });",
-                            "type": "execute"
-                          }
-                        ]
+                        "click": []
                       },
                       "name": "image0",
                       "path": "/assets/images/Logo01.png",
@@ -146,12 +137,7 @@
                     },
                     {
                       "events": {
-                        "click": [
-                          {
-                            "code": "await InvokeAsync(() => { sidebar0.Toggle(); });\nawait InvokeAsync(() => { body0.Toggle(); });",
-                            "type": "execute"
-                          }
-                        ]
+                        "click": []
                       },
                       "icon": "settings",
                       "name": "button2",
@@ -218,17 +204,23 @@
                   "icon": "leaderboard",
                   "items": [],
                   "parameters": [],
-                  "path": "bc-analysen",
+                  "path": "bc-tools-bc-analysen",
+                  "selected": true,
                   "text": "BC Analysen"
                 },
                 {
+                  "icon": "beenhere",
+                  "path": "bc-tools-bc-analysen-admin",
+                  "text": "BC Analysen Admin"
+                },
+                {
                   "icon": "fact_check",
-                  "path": "",
+                  "path": "bc-tools-bc-scan-admin",
                   "text": "BC Scan Admin"
                 },
                 {
                   "icon": "settings",
-                  "path": "einstellungen",
+                  "path": "bc-tools-einstellungen",
                   "text": "Einstellungen"
                 }
               ],
@@ -289,7 +281,7 @@
             {
               "icon": "",
               "name": "linkVersion",
-              "path": "versionen",
+              "path": "",
               "style": {
                 "color": "#9D1F16",
                 "float": "right",

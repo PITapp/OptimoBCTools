@@ -7,7 +7,7 @@ using Radzen.Blazor;
 
 namespace OptimoBcTools.Pages
 {
-    public partial class BcScanDeviceComponent
+    public partial class BcAnalysen0001Component
     {
 
     }

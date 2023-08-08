@@ -7,7 +7,7 @@ using Radzen.Blazor;
 
 namespace OptimoBcTools.Pages
 {
-    public partial class EinstellungenComponent
+    public partial class BcToolsBcAnalysenComponent
     {
 
     }

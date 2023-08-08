@@ -12,7 +12,7 @@ using OptimoBcTools.Client.Pages;
 
 namespace OptimoBcTools.Pages
 {
-    public partial class EinstellungenComponent : ComponentBase
+    public partial class BcToolsBcAnalysenAdminComponent : ComponentBase
     {
         [Parameter(CaptureUnmatchedValues = true)]
         public IReadOnlyDictionary<string, dynamic> Attributes { get; set; }

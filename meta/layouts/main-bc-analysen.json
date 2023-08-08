@@ -54,16 +54,7 @@
                     },
                     {
                       "events": {
-                        "click": [
-                          {
-                            "code": "await InvokeAsync(() => { sidebar0.Toggle(); });",
-                            "type": "execute"
-                          },
-                          {
-                            "code": "await InvokeAsync(() => { body0.Toggle(); });",
-                            "type": "execute"
-                          }
-                        ]
+                        "click": []
                       },
                       "name": "image0",
                       "path": "/assets/images/Logo01.png",
@@ -146,12 +137,7 @@
                     },
                     {
                       "events": {
-                        "click": [
-                          {
-                            "code": "await InvokeAsync(() => { sidebar0.Toggle(); });\nawait InvokeAsync(() => { body0.Toggle(); });",
-                            "type": "execute"
-                          }
-                        ]
+                        "click": []
                       },
                       "icon": "settings",
                       "name": "button2",
@@ -214,63 +200,58 @@
             {
               "items": [
                 {
+                  "icon": "leaderboard",
+                  "path": "bc-analysen",
+                  "text": "Alle"
+                },
+                {
                   "expanded": false,
                   "icon": "groups",
-                  "items": [
-                    {
-                      "icon": "equalizer",
-                      "text": "Analyse 1",
-                      "value": ""
-                    },
-                    {
-                      "text": "Analyse 2",
-                      "value": ""
-                    },
-                    {
-                      "text": "Analyse 3",
-                      "value": ""
-                    }
-                  ],
+                  "items": [],
                   "parameters": [],
-                  "path": "test-1",
+                  "path": "bc-analysen-geschaeftsfuehrung",
                   "text": "Geschäftsführung"
                 },
                 {
                   "icon": "account_balance",
+                  "items": [],
                   "path": "",
                   "text": "Finanzmanagement"
                 },
                 {
                   "expanded": false,
                   "icon": "shopping_cart",
-                  "items": [
-                    {
-                      "icon": "",
-                      "path": "test-2",
-                      "text": "Fertigung: Stückzahlen LA und MA"
-                    }
-                  ],
+                  "items": [],
                   "path": "",
                   "text": "Einkauf"
                 },
                 {
                   "icon": "record_voice_over",
+                  "items": [],
                   "path": "",
                   "text": "Verkauf"
                 },
                 {
                   "icon": "business_center",
+                  "items": [],
                   "path": "",
                   "text": "Außendienst"
                 },
                 {
                   "icon": "handyman",
+                  "items": [],
                   "path": "",
                   "text": "Produktion"
                 },
                 {
                   "icon": "batch_prediction",
+                  "items": [],
+                  "path": "",
                   "text": "Produktentwicklung"
+                },
+                {
+                  "icon": "settings",
+                  "text": "Einstellungen"
                 }
               ],
               "name": "panelmenu0",
@@ -330,7 +311,7 @@
             {
               "icon": "",
               "name": "linkVersion",
-              "path": "versionen",
+              "path": "",
               "style": {
                 "color": "#9D1F16",
                 "float": "right",
@@ -360,7 +341,7 @@
                 "float": "right",
                 "paddingTop": "2px"
               },
-              "text": "BCTools",
+              "text": "BC Analysen",
               "type": "link"
             }
           ],

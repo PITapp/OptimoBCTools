@@ -21,7 +21,7 @@
                 </RadzenIcon>
               </ChildContent>
             </RadzenButton>
-            <RadzenImage Path="assets/images/Logo01.png" style="display: block; float: left; height: 30px; width: 83px" Click="@Image0Click">
+            <RadzenImage Path="assets/images/Logo01.png" style="display: block; float: left; height: 30px; width: 83px">
             </RadzenImage>
             <RadzenLabel style="color: #575757; float: none; font-size: 12px; padding-left: 10px; padding-right: 12px" Text="|">
             </RadzenLabel>
@@ -35,7 +35,7 @@
                 </RadzenIcon>
               </ChildContent>
             </RadzenButton>
-            <RadzenButton Icon="settings" style="background-color: rgba(0, 0, 0, 0); border-radius: 0; color: #9D1F16; font-weight: normal; height: 50px; margin-right: 16px; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; width: 60px" Click="@Button2Click">
+            <RadzenButton Icon="settings" style="background-color: rgba(0, 0, 0, 0); border-radius: 0; color: #9D1F16; font-weight: normal; height: 50px; margin-right: 16px; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; width: 60px">
               <ChildContent>
                 <RadzenIcon Icon="settings" style="font-size: 22px">
                 </RadzenIcon>
@@ -49,23 +49,13 @@
       <ChildContent>
         <RadzenPanelMenu style="height: 100%">
           <ChildContent>
-            <RadzenPanelMenuItem Expanded="false" Icon="groups" Path="test-1" Text="Geschäftsführung">
-              <ChildContent>
-                <RadzenPanelMenuItem Icon="equalizer" Text="Analyse 1">
-                </RadzenPanelMenuItem>
-                <RadzenPanelMenuItem Text="Analyse 2">
-                </RadzenPanelMenuItem>
-                <RadzenPanelMenuItem Text="Analyse 3">
-                </RadzenPanelMenuItem>
-              </ChildContent>
+            <RadzenPanelMenuItem Icon="leaderboard" Path="bc-analysen" Text="Alle">
+            </RadzenPanelMenuItem>
+            <RadzenPanelMenuItem Expanded="false" Icon="groups" Path="bc-analysen-geschaeftsfuehrung" Text="Geschäftsführung">
             </RadzenPanelMenuItem>
             <RadzenPanelMenuItem Icon="account_balance" Text="Finanzmanagement">
             </RadzenPanelMenuItem>
             <RadzenPanelMenuItem Expanded="false" Icon="shopping_cart" Text="Einkauf">
-              <ChildContent>
-                <RadzenPanelMenuItem Path="test-2" Text="Fertigung: Stückzahlen LA und MA">
-                </RadzenPanelMenuItem>
-              </ChildContent>
             </RadzenPanelMenuItem>
             <RadzenPanelMenuItem Icon="record_voice_over" Text="Verkauf">
             </RadzenPanelMenuItem>
@@ -74,6 +64,8 @@
             <RadzenPanelMenuItem Icon="handyman" Text="Produktion">
             </RadzenPanelMenuItem>
             <RadzenPanelMenuItem Icon="batch_prediction" Text="Produktentwicklung">
+            </RadzenPanelMenuItem>
+            <RadzenPanelMenuItem Icon="settings" Text="Einstellungen">
             </RadzenPanelMenuItem>
           </ChildContent>
         </RadzenPanelMenu>
@@ -94,11 +86,11 @@
         </RadzenLabel>
         <RadzenLabel style="color: #3b3a39; float: none" Text="Braunau/Inn · Industriezeile 10">
         </RadzenLabel>
-        <RadzenLink Path="versionen" style="color: #9D1F16; float: right; margin-top: 2px" Text="Version 1.03.028">
+        <RadzenLink style="color: #9D1F16; float: right; margin-top: 2px" Text="Version 1.03.028">
         </RadzenLink>
         <RadzenLabel style="color: #e5ecef; float: right; margin-top: 2px; padding-left: 10px; padding-right: 10px" Text="|">
         </RadzenLabel>
-        <RadzenLink style="color: #9D1F16; float: right; padding-top: 2px" Text="BCTools">
+        <RadzenLink style="color: #9D1F16; float: right; padding-top: 2px" Text="BC Analysen">
         </RadzenLink>
       </ChildContent>
     </RadzenFooter>

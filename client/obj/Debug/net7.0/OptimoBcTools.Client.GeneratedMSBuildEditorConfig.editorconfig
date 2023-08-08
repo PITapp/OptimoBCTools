@@ -9,53 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = OptimoBcTools.Client
 build_property.RootNamespace = OptimoBcTools.Client
-build_property.ProjectDir = C:\Apps\Radzen\OptimoBCTools\client\
+build_property.ProjectDir = c:\Apps\Radzen\OptimoBCTools\client\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Apps\Radzen\OptimoBCTools\client
+build_property.MSBuildProjectDirectory = c:\Apps\Radzen\OptimoBCTools\client
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Apps/Radzen/OptimoBCTools/client/App.razor]
+[c:/Apps/Radzen/OptimoBCTools/client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Apps/Radzen/OptimoBCTools/client/Pages/BcAnalysen.razor]
+[c:/Apps/Radzen/OptimoBCTools/client/Pages/BcAnalysen.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmNBbmFseXNlbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Apps/Radzen/OptimoBCTools/client/Pages/BcScanDevice.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmNTY2FuRGV2aWNlLnJhem9y
+[c:/Apps/Radzen/OptimoBCTools/client/Pages/BcAnalysen0001.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmNBbmFseXNlbjAwMDEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Apps/Radzen/OptimoBCTools/client/Pages/Dashboard.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLnJhem9y
+[c:/Apps/Radzen/OptimoBCTools/client/Pages/BcAnalysenGeschaeftsfuehrung.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmNBbmFseXNlbkdlc2NoYWVmdHNmdWVocnVuZy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Apps/Radzen/OptimoBCTools/client/Pages/Einstellungen.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWluc3RlbGx1bmdlbi5yYXpvcg==
+[c:/Apps/Radzen/OptimoBCTools/client/Pages/BcToolsBcAnalysen.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmNUb29sc0JjQW5hbHlzZW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Apps/Radzen/OptimoBCTools/client/Pages/Test2.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdDIucmF6b3I=
+[c:/Apps/Radzen/OptimoBCTools/client/Pages/BcToolsBcAnalysenAdmin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmNUb29sc0JjQW5hbHlzZW5BZG1pbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Apps/Radzen/OptimoBCTools/client/Shared/LoginLayout.razor]
+[c:/Apps/Radzen/OptimoBCTools/client/Pages/BcToolsBcScanAdmin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmNUb29sc0JjU2NhbkFkbWluLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Apps/Radzen/OptimoBCTools/client/Pages/BcToolsEinstellungen.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmNUb29sc0VpbnN0ZWxsdW5nZW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Apps/Radzen/OptimoBCTools/client/Shared/LoginLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Apps/Radzen/OptimoBCTools/client/Shared/MainBcAnalysenLayout.razor]
+[c:/Apps/Radzen/OptimoBCTools/client/Shared/MainBcAnalysenLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5CY0FuYWx5c2VuTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Apps/Radzen/OptimoBCTools/client/Shared/MainBcScanAdminLayout.razor]
+[c:/Apps/Radzen/OptimoBCTools/client/Shared/MainBcScanAdminLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5CY1NjYW5BZG1pbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Apps/Radzen/OptimoBCTools/client/Shared/MainLayout.razor]
+[c:/Apps/Radzen/OptimoBCTools/client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Apps/Radzen/OptimoBCTools/client/_Imports.razor]
+[c:/Apps/Radzen/OptimoBCTools/client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

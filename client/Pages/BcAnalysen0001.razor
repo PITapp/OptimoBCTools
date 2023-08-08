@@ -1,16 +1,16 @@
-﻿@page "/bc-analysen"
+﻿@page "/bc-analysen-0001"
 @layout MainBcAnalysenLayout
-@inherits OptimoBcTools.Pages.BcAnalysenComponent
+@inherits OptimoBcTools.Pages.BcAnalysen0001Component
 
 @using Radzen
 @using Radzen.Blazor
 @using OptimoBcTools.Models.DbOptimoBcLive
-<PageTitle>BCAnalysen</PageTitle>
+<PageTitle>BCAnalysen0001</PageTitle>
 <RadzenContent Container="main">
   <ChildContent>
     <div style="border-bottom: 1px solid #eaeef0; height: 50px; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0" class="row">
       <div class="col-md-6 align-items-center d-flex">
-        <RadzenHeading Size="H3" style="color: #5d717b; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0" Text="Analysen">
+        <RadzenHeading Size="H3" style="color: #5d717b; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0" Text="Fertigung: Stückzahlen LA und MA">
         </RadzenHeading>
       </div>
       <div class="col-md-6 justify-content-end d-flex align-items-center" style="padding-right: 0">
@@ -28,7 +28,7 @@
       <div class="col-md-12" style="padding-bottom: 0; padding-left: 6px; padding-right: 6px; padding-top: 0">
         <RadzenTabs TabPosition="TabPosition.Top">
           <Tabs>
-            <RadzenTabsItem Text="Auswahl">
+            <RadzenTabsItem Text="Daten">
               <ChildContent>
                 <div class="row">
                   <div class="col-md-12" style="padding-bottom: 0; padding-left: 10px; padding-right: 10px; padding-top: 0">
@@ -36,7 +36,7 @@
                 </div>
               </ChildContent>
             </RadzenTabsItem>
-            <RadzenTabsItem Text="Archivierte Ergebnisse">
+            <RadzenTabsItem Text="Grafische Auswertung">
             </RadzenTabsItem>
           </Tabs>
         </RadzenTabs>

@@ -17,25 +17,28 @@
   "layouts": [
     "Login",
     "Main",
-    "MainBCAnalysen",
-    "MainBCScanAdmin"
+    "MainBCAnalysen"
   ],
   "logo": "",
   "name": "Optimo BCTools",
   "namespaces": [],
   "navigation": [
     "BCAnalysen",
-    "Test 2",
-    "BcScanDevice",
-    "Dashboard",
-    "Einstellungen"
+    "BCTools_BCAnalysen",
+    "BCTools_Einstellungen",
+    "BCTools_BCAnalysenAdmin",
+    "BCTools_BCScanAdmin",
+    "BCAnalysenGeschaeftsfuehrung",
+    "BCAnalysen0001"
   ],
   "pages": [
     "BCAnalysen",
-    "Test 2",
-    "BcScanDevice",
-    "Dashboard",
-    "Einstellungen"
+    "BCTools_BCAnalysen",
+    "BCTools_Einstellungen",
+    "BCTools_BCAnalysenAdmin",
+    "BCTools_BCScanAdmin",
+    "BCAnalysenGeschaeftsfuehrung",
+    "BCAnalysen0001"
   ],
   "port": 8000,
   "pwa": true,
@@ -43,7 +46,7 @@
   "serverPort": 5000,
   "serverProject": true,
   "serverVersion": "7",
-  "startPage": "Dashboard",
+  "startPage": "BCTools_BCAnalysen",
   "theme": "fluent",
   "themeSettings": {
     "$accordion-border-radius": "4px",

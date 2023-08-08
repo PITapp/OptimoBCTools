@@ -1,53 +1,46 @@
-﻿@page "/"
-@page "/dashboard"
+﻿@page "/bc-tools-bc-analysen-admin"
 @layout MainLayout
-@inherits OptimoBcTools.Pages.DashboardComponent
+@inherits OptimoBcTools.Pages.BcToolsBcAnalysenAdminComponent
 
 @using Radzen
 @using Radzen.Blazor
 @using OptimoBcTools.Models.DbOptimoBcLive
-<PageTitle>Dashboard</PageTitle>
+<PageTitle>BCTools_BCAnalysenAdmin</PageTitle>
 <RadzenContent Container="main">
   <ChildContent>
     <div style="border-bottom: 1px solid #eaeef0; height: 50px; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0" class="row">
       <div class="col-md-6 align-items-center d-flex">
-        <RadzenHeading Size="H3" style="color: #5d717b; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0" Text="BC Analysen">
+        <RadzenHeading Size="H3" style="color: #5d717b; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0" Text="BC Analysen Admin">
         </RadzenHeading>
       </div>
       <div class="col-md-6 justify-content-end d-flex align-items-center" style="padding-right: 0">
         <RadzenButton style="background-color: rgba(0, 0, 0, 0); border-radius: 0; color: #5d717b; font-weight: normal; height: 50px; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; width: 100px">
           <ChildContent>
-            <RadzenIcon Icon="read_more" style="color: #5d717b; font-size: 20px; font-weight: normal">
+            <RadzenIcon Icon="upgrade" style="color: #5d717b; font-size: 20px; font-weight: normal">
             </RadzenIcon>
-            <RadzenLabel style="margin-left: 7px" Text="Öffnen">
+            <RadzenLabel style="margin-left: 7px" Text="Export">
             </RadzenLabel>
           </ChildContent>
         </RadzenButton>
       </div>
     </div>
-    <div  class="row">
-      <div class="col-md-12" >
+    <div style="padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0" class="row">
+      <div class="col-md-12" style="padding-bottom: 0; padding-left: 6px; padding-right: 6px; padding-top: 0">
         <RadzenTabs>
           <Tabs>
-            <RadzenTabsItem Text="Info">
+            <RadzenTabsItem Text="Analysen">
               <ChildContent>
                 <div class="row">
-                  <div class="col-md-12">
-                    <RadzenHtml>
-                    </RadzenHtml>
+                  <div class="col-md-12" style="padding-bottom: 0; padding-left: 10px; padding-right: 10px; padding-top: 0">
                   </div>
                 </div>
               </ChildContent>
+            </RadzenTabsItem>
+            <RadzenTabsItem Text="Sonstiges">
             </RadzenTabsItem>
           </Tabs>
         </RadzenTabs>
       </div>
     </div>
-    <RadzenTabs>
-      <Tabs>
-        <RadzenTabsItem Text="Tab 1">
-        </RadzenTabsItem>
-      </Tabs>
-    </RadzenTabs>
   </ChildContent>
 </RadzenContent>
