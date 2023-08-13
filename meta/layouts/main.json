@@ -103,6 +103,14 @@
                   "class": "text-lg-right align-items-center d-flex justify-content-end col-md-6",
                   "components": [
                     {
+                      "events": {
+                        "click": [
+                          {
+                            "path": "suchen",
+                            "type": "navigate"
+                          }
+                        ]
+                      },
                       "icon": "settings",
                       "name": "button0",
                       "style": {
@@ -137,7 +145,12 @@
                     },
                     {
                       "events": {
-                        "click": []
+                        "click": [
+                          {
+                            "path": "einstellungen",
+                            "type": "navigate"
+                          }
+                        ]
                       },
                       "icon": "settings",
                       "name": "button2",
@@ -201,26 +214,31 @@
               "items": [
                 {
                   "expanded": false,
-                  "icon": "leaderboard",
+                  "icon": "dashboard",
                   "items": [],
                   "parameters": [],
-                  "path": "bc-tools-bc-analysen",
-                  "selected": true,
-                  "text": "BC Analysen"
+                  "path": "dashboard",
+                  "selected": false,
+                  "text": "Dashboard"
                 },
                 {
-                  "icon": "beenhere",
-                  "path": "bc-tools-bc-analysen-admin",
-                  "text": "BC Analysen Admin"
+                  "icon": "spa",
+                  "path": "pi-tapp",
+                  "text": "PITapp"
                 },
                 {
-                  "icon": "fact_check",
-                  "path": "bc-tools-bc-scan-admin",
-                  "text": "BC Scan Admin"
+                  "icon": "view_week",
+                  "path": "version",
+                  "text": "Version"
+                },
+                {
+                  "icon": "search",
+                  "path": "suchen",
+                  "text": "Suchen"
                 },
                 {
                   "icon": "settings",
-                  "path": "bc-tools-einstellungen",
+                  "path": "einstellungen",
                   "text": "Einstellungen"
                 }
               ],
@@ -259,35 +277,15 @@
               "type": "label"
             },
             {
-              "name": "label1",
-              "style": {
-                "color": "#e5ecef",
-                "float": "none",
-                "paddingLeft": "10px",
-                "paddingRight": "10px"
-              },
-              "text": "|",
-              "type": "label"
-            },
-            {
-              "name": "label4",
-              "style": {
-                "color": "#3b3a39",
-                "float": "none"
-              },
-              "text": "Braunau/Inn · Industriezeile 10",
-              "type": "label"
-            },
-            {
               "icon": "",
               "name": "linkVersion",
-              "path": "",
+              "path": "version",
               "style": {
                 "color": "#9D1F16",
                 "float": "right",
                 "marginTop": "2px"
               },
-              "text": "Version 1.03.028",
+              "text": "Version 1.028",
               "type": "link"
             },
             {
@@ -305,13 +303,13 @@
             {
               "icon": "",
               "name": "linkKontakt",
-              "path": "",
+              "path": "pi-tapp",
               "style": {
                 "color": "#9D1F16",
                 "float": "right",
                 "paddingTop": "2px"
               },
-              "text": "BC Tools",
+              "text": "Powered by PITapp",
               "type": "link"
             }
           ],

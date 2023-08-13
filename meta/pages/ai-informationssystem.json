@@ -1,0 +1,161 @@
+{
+  "components": [
+    {
+      "components": [
+        {
+          "components": [
+            {
+              "class": "col-md-6 align-items-center d-flex",
+              "components": [
+                {
+                  "name": "heading0",
+                  "size": "H3",
+                  "style": {
+                    "color": "#5d717b",
+                    "marginBottom": "0",
+                    "marginLeft": "0",
+                    "marginRight": "0",
+                    "marginTop": "0",
+                    "paddingBottom": "0",
+                    "paddingLeft": "0",
+                    "paddingRight": "0",
+                    "paddingTop": "0"
+                  },
+                  "text": "Außendienst Informationssystem",
+                  "type": "heading"
+                }
+              ],
+              "name": "col0",
+              "type": "col"
+            },
+            {
+              "class": "col-md-6 justify-content-end d-flex align-items-center",
+              "components": [
+                {
+                  "icon": "",
+                  "name": "button2",
+                  "style": {
+                    "backgroundColor": "rgba(0, 0, 0, 0)",
+                    "borderRadius": "0",
+                    "color": "#5d717b",
+                    "fontWeight": "normal",
+                    "height": "50px",
+                    "marginBottom": "0",
+                    "marginLeft": "0",
+                    "marginRight": "0",
+                    "marginTop": "0",
+                    "paddingBottom": "0",
+                    "paddingLeft": "0",
+                    "paddingRight": "0",
+                    "paddingTop": "0",
+                    "width": "100px"
+                  },
+                  "template": [
+                    {
+                      "icon": "upgrade",
+                      "name": "icon0",
+                      "style": {
+                        "color": "#5d717b",
+                        "fontSize": "20px",
+                        "fontWeight": "normal"
+                      },
+                      "type": "icon"
+                    },
+                    {
+                      "name": "label0",
+                      "style": {
+                        "marginLeft": "7px"
+                      },
+                      "template": "",
+                      "text": "Export",
+                      "type": "label"
+                    }
+                  ],
+                  "text": "",
+                  "type": "button"
+                }
+              ],
+              "name": "col1",
+              "style": {
+                "paddingRight": "0"
+              },
+              "type": "col"
+            }
+          ],
+          "name": "row0",
+          "style": {
+            "borderBottom": "1px solid #eaeef0",
+            "height": "50px",
+            "paddingBottom": "0",
+            "paddingLeft": "0",
+            "paddingRight": "0",
+            "paddingTop": "0"
+          },
+          "type": "row"
+        },
+        {
+          "components": [
+            {
+              "class": "col-md-12",
+              "components": [
+                {
+                  "items": [
+                    {
+                      "components": [
+                        {
+                          "components": [
+                            {
+                              "class": "col-md-12",
+                              "components": [],
+                              "name": "col3",
+                              "style": {
+                                "paddingBottom": "0",
+                                "paddingLeft": "10px",
+                                "paddingRight": "10px",
+                                "paddingTop": "0"
+                              },
+                              "type": "col"
+                            }
+                          ],
+                          "name": "row2",
+                          "type": "row"
+                        }
+                      ],
+                      "icon": "",
+                      "text": "Daten"
+                    },
+                    {
+                      "text": "Sonstiges"
+                    }
+                  ],
+                  "name": "tabs0",
+                  "type": "tabs"
+                }
+              ],
+              "name": "col2",
+              "style": {
+                "paddingBottom": "0",
+                "paddingLeft": "6px",
+                "paddingRight": "6px",
+                "paddingTop": "0"
+              },
+              "type": "col"
+            }
+          ],
+          "name": "row1",
+          "style": {
+            "paddingBottom": "0",
+            "paddingLeft": "0",
+            "paddingRight": "0",
+            "paddingTop": "0"
+          },
+          "type": "row"
+        }
+      ],
+      "container": "main",
+      "type": "content"
+    }
+  ],
+  "layout": "AIInformationssystem",
+  "name": "AIInformationssystem"
+}

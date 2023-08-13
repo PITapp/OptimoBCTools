@@ -26551,6 +26551,12 @@ button.rz-colorpicker-trigger .rz-fileupload-row .rz-paginator-element .rz-icon-
 /* --- Kopfzeile: verlaufend dunkel --- */
 .rz-header {
   background-image: linear-gradient(#e2e2e2, #E9E9E9);
+  background-image: linear-gradient(#EBEDEF, #F6F7F8);
+  background-image: linear-gradient(#e2e2e2, #F6F7F8);
+}
+
+.rz-body {
+  background-color: #F6F7F8;
 }
 
 .rz-footer {
@@ -26579,4 +26585,26 @@ button.rz-colorpicker-trigger .rz-fileupload-row .rz-paginator-element .rz-icon-
 
 .rz-panel-menu .rz-navigation-menu .rz-navigation-item .rz-navigation-item-link {
   padding-left: 55px;
+}
+
+.rz-panel-menu .rz-navigation-item-wrapper:hover {
+  background-color: #F6F7F8;
+}
+
+.rz-panel-menu .rz-navigation-item-active,
+.rz-panel-menu .rz-navigation-item-wrapper-active {
+  background-color: #F6F7F8;
+}
+
+/* --- HTML Editor --- */
+.rz-html-editor {
+  border-radius: 0;
+}
+
+.card-footer {
+  background-color: green;
+  text-align: right;
+  position: absolute;
+  bottom: 16px;
+  right: 32px;
 }

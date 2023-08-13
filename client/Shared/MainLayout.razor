@@ -29,13 +29,13 @@
             </RadzenLabel>
           </div>
           <div class="text-lg-right align-items-center d-flex justify-content-end col-md-6" style="background-color: rgba(0, 0, 0, 0); float: right; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0">
-            <RadzenButton Icon="settings" style="background-color: rgba(0, 0, 0, 0); border-radius: 0; color: #9D1F16; font-weight: normal; height: 50px; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; width: 50px">
+            <RadzenButton Icon="settings" style="background-color: rgba(0, 0, 0, 0); border-radius: 0; color: #9D1F16; font-weight: normal; height: 50px; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; width: 50px" Click="@Button0Click">
               <ChildContent>
                 <RadzenIcon Icon="search" style="font-size: 22px; font-weight: bold">
                 </RadzenIcon>
               </ChildContent>
             </RadzenButton>
-            <RadzenButton Icon="settings" style="background-color: rgba(0, 0, 0, 0); border-radius: 0; color: #9D1F16; font-weight: normal; height: 50px; margin-right: 16px; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; width: 60px">
+            <RadzenButton Icon="settings" style="background-color: rgba(0, 0, 0, 0); border-radius: 0; color: #9D1F16; font-weight: normal; height: 50px; margin-right: 16px; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; width: 60px" Click="@Button2Click">
               <ChildContent>
                 <RadzenIcon Icon="settings" style="font-size: 22px">
                 </RadzenIcon>
@@ -49,13 +49,15 @@
       <ChildContent>
         <RadzenPanelMenu style="height: 100%">
           <ChildContent>
-            <RadzenPanelMenuItem Expanded="false" Icon="leaderboard" Path="bc-tools-bc-analysen" Selected="true" Text="BC Analysen">
+            <RadzenPanelMenuItem Expanded="false" Icon="dashboard" Path="dashboard" Selected="false" Text="Dashboard">
             </RadzenPanelMenuItem>
-            <RadzenPanelMenuItem Icon="beenhere" Path="bc-tools-bc-analysen-admin" Text="BC Analysen Admin">
+            <RadzenPanelMenuItem Icon="spa" Path="pi-tapp" Text="PITapp">
             </RadzenPanelMenuItem>
-            <RadzenPanelMenuItem Icon="fact_check" Path="bc-tools-bc-scan-admin" Text="BC Scan Admin">
+            <RadzenPanelMenuItem Icon="view_week" Path="version" Text="Version">
             </RadzenPanelMenuItem>
-            <RadzenPanelMenuItem Icon="settings" Path="bc-tools-einstellungen" Text="Einstellungen">
+            <RadzenPanelMenuItem Icon="search" Path="suchen" Text="Suchen">
+            </RadzenPanelMenuItem>
+            <RadzenPanelMenuItem Icon="settings" Path="einstellungen" Text="Einstellungen">
             </RadzenPanelMenuItem>
           </ChildContent>
         </RadzenPanelMenu>
@@ -72,15 +74,11 @@
       <ChildContent>
         <RadzenLabel style="color: #3b3a39; float: none" Text="© 2023 Optimo Schlafsysteme GmbH">
         </RadzenLabel>
-        <RadzenLabel style="color: #e5ecef; float: none; padding-left: 10px; padding-right: 10px" Text="|">
-        </RadzenLabel>
-        <RadzenLabel style="color: #3b3a39; float: none" Text="Braunau/Inn · Industriezeile 10">
-        </RadzenLabel>
-        <RadzenLink style="color: #9D1F16; float: right; margin-top: 2px" Text="Version 1.03.028">
+        <RadzenLink Path="version" style="color: #9D1F16; float: right; margin-top: 2px" Text="Version 1.028">
         </RadzenLink>
         <RadzenLabel style="color: #e5ecef; float: right; margin-top: 2px; padding-left: 10px; padding-right: 10px" Text="|">
         </RadzenLabel>
-        <RadzenLink style="color: #9D1F16; float: right; padding-top: 2px" Text="BC Tools">
+        <RadzenLink Path="pi-tapp" style="color: #9D1F16; float: right; padding-top: 2px" Text="Powered by PITapp">
         </RadzenLink>
       </ChildContent>
     </RadzenFooter>

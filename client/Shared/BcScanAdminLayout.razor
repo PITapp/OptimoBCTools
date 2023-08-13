@@ -1,0 +1,80 @@
+﻿@inherits OptimoBcTools.Layouts.BcScanAdminLayoutComponent
+
+@using Radzen
+@using Radzen.Blazor
+@using OptimoBcTools.Models.DbOptimoBcLive
+@using OptimoBcTools.Pages
+<RadzenDialog />
+<RadzenNotification />
+<RadzenTooltip />
+<RadzenContextMenu />
+
+<RadzenLayout>
+  <ChildContent>
+    <RadzenHeader>
+      <ChildContent>
+        <div class="row align-items-center" style="border-bottom: 1px dotted #9d1f16; height: 50px; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0">
+          <div class="d-flex align-items-center   justify-content-start col-md-6" style="float: left">
+            <RadzenButton ButtonStyle="ButtonStyle.Primary" Icon="settings" style="background-color: rgba(0, 0, 0, 0); border-radius: 0; color: #3b3a39; font-weight: normal; height: 50px; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; width: 66px" Click="@Button1Click">
+              <ChildContent>
+                <RadzenIcon Icon="apps" style="font-size: 22px; font-weight: normal">
+                </RadzenIcon>
+              </ChildContent>
+            </RadzenButton>
+            <RadzenImage Path="assets/images/Logo01.png" style="display: block; float: left; height: 30px; width: 83px">
+            </RadzenImage>
+            <RadzenLabel style="color: #575757; float: none; font-size: 12px; padding-left: 10px; padding-right: 12px" Text="|">
+            </RadzenLabel>
+            <RadzenLabel style="color: #9D1F16; float: none; font-family: verdana,geneva,sans-serif; font-size: 14px; font-weight: normal" Text="BC Scan Admin">
+            </RadzenLabel>
+          </div>
+          <div class="text-lg-right align-items-center d-flex justify-content-end col-md-6" style="background-color: rgba(0, 0, 0, 0); float: right; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0">
+            <RadzenButton Icon="settings" style="background-color: rgba(0, 0, 0, 0); border-radius: 0; color: #9D1F16; font-weight: normal; height: 50px; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; width: 50px" Click="@Button0Click">
+              <ChildContent>
+                <RadzenIcon Icon="search" style="font-size: 22px; font-weight: bold">
+                </RadzenIcon>
+              </ChildContent>
+            </RadzenButton>
+            <RadzenButton Icon="settings" style="background-color: rgba(0, 0, 0, 0); border-radius: 0; color: #9D1F16; font-weight: normal; height: 50px; margin-right: 16px; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; width: 60px" Click="@Button2Click">
+              <ChildContent>
+                <RadzenIcon Icon="settings" style="font-size: 22px">
+                </RadzenIcon>
+              </ChildContent>
+            </RadzenButton>
+          </div>
+        </div>
+      </ChildContent>
+    </RadzenHeader>
+    <RadzenSidebar @ref="sidebar0">
+      <ChildContent>
+        <RadzenPanelMenu style="height: 100%">
+          <ChildContent>
+            <RadzenPanelMenuItem Icon="leaderboard" Path="bc-analysen" Text="Alle">
+            </RadzenPanelMenuItem>
+            <RadzenPanelMenuItem Icon="settings" Text="Einstellungen">
+            </RadzenPanelMenuItem>
+          </ChildContent>
+        </RadzenPanelMenu>
+      </ChildContent>
+    </RadzenSidebar>
+    <RadzenBody @ref="body0" style="padding-top: 0">
+      <ChildContent>
+        <RadzenContentContainer Name="main">
+        @Body
+        </RadzenContentContainer>
+      </ChildContent>
+    </RadzenBody>
+    <RadzenFooter style="height: 50px; padding-top: 12px">
+      <ChildContent>
+        <RadzenLabel style="color: #3b3a39; float: none" Text="© 2023 Optimo Schlafsysteme GmbH">
+        </RadzenLabel>
+        <RadzenLink Path="version" style="color: #9D1F16; float: right; margin-top: 2px" Text="Version 1.028">
+        </RadzenLink>
+        <RadzenLabel style="color: #e5ecef; float: right; margin-top: 2px; padding-left: 10px; padding-right: 10px" Text="|">
+        </RadzenLabel>
+        <RadzenLink Path="pi-tapp" style="color: #9D1F16; float: right; padding-top: 2px" Text="Powered by PITapp">
+        </RadzenLink>
+      </ChildContent>
+    </RadzenFooter>
+  </ChildContent>
+</RadzenLayout>

@@ -1,0 +1,127 @@
+﻿@page "/"
+@page "/dashboard"
+@layout DashboardLayout
+@inherits OptimoBcTools.Pages.DashboardComponent
+
+@using Radzen
+@using Radzen.Blazor
+@using OptimoBcTools.Models.DbOptimoBcLive
+<PageTitle>Dashboard</PageTitle>
+<RadzenContent Container="dashboard">
+  <ChildContent>
+    <div style="padding-bottom: 16px; padding-top: 16px" class="row">
+      <div class="col-md-4">
+        <RadzenCard style="height: 100%; padding-bottom: 16px; padding-left: 16px; padding-right: 16px; padding-top: 16px">
+          <ChildContent>
+            <div class="col-md-12 justify-content-start d-flex">
+              <RadzenIcon Icon="leaderboard" style="color: #9D1F16; font-size: 22px">
+              </RadzenIcon>
+              <RadzenHeading Size="H3" style="color: #6d787d; margin-left: 16px" Text="BC Analysen">
+              </RadzenHeading>
+            </div>
+            <div class="col-md-12 justify-content-start d-flex" style="margin-top: 10px">
+              <RadzenLabel style="margin-bottom: 50px" Text="Dieses Modul bietet eine vielschichtige Perspektive auf geschäftliche Daten und ermöglicht es den Benutzern, wichtige Erkenntnisse aus verschiedenen Blickwinkeln zu gewinnen. Von der Geschäftsführung bis hin zu operativen Teams wie Einkauf, Verkauf, Außendienst, Produktion und Produktentwicklung können Nutzer gezielt auf relevante Daten zugreifen und diese analysieren. Durch die Kategorisierung der Analysen nach Abteilungen erhalten Benutzer spezifische Einblicke in die Leistung, Effizienz und Trends in verschiedenen Bereichen des Unternehmens.">
+              </RadzenLabel>
+            </div>
+            <RadzenButton  Text="Öffnen" Variant="Variant.Outlined" Click="@Button0Click" class="card-footer">
+            </RadzenButton>
+          </ChildContent>
+        </RadzenCard>
+      </div>
+      <div class="col-md-4">
+        <RadzenCard style="height: 100%; padding-bottom: 16px; padding-left: 16px; padding-right: 16px; padding-top: 16px">
+          <ChildContent>
+            <div class="col-md-12 justify-content-start d-flex">
+              <RadzenIcon Icon="poll" style="color: #9D1F16; font-size: 22px">
+              </RadzenIcon>
+              <RadzenHeading Size="H3" style="color: #6d787d; margin-left: 16px" Text="BC Analysen Admin">
+              </RadzenHeading>
+            </div>
+            <div class="col-md-12 justify-content-start d-flex" style="margin-top: 10px">
+              <RadzenLabel style="margin-bottom: 50px" Text="Dieses Modul ist ein dediziertes Verwaltungstool, das die Kontrolle und Konfiguration der 'BC Analysen' ermöglicht. Es bietet Administratoren und autorisierten Benutzern die Möglichkeit, die verschiedenen Aspekte der 'BC Analysen' zu verwalten und anzupassen, um sicherzustellen, dass sie den sich wandelnden Geschäftsanforderungen gerecht wird und dabei eine benutzerfreundliche und zentralisierte Verwaltungsoberfläche bietet.">
+              </RadzenLabel>
+            </div>
+            <RadzenButton  Text="Öffnen" Variant="Variant.Outlined" Click="@Button1Click" class="card-footer">
+            </RadzenButton>
+          </ChildContent>
+        </RadzenCard>
+      </div>
+      <div class="col-md-4">
+        <RadzenCard style="height: 100%; padding-bottom: 16px; padding-left: 16px; padding-right: 16px; padding-top: 16px">
+          <ChildContent>
+            <div class="col-md-12 justify-content-start d-flex">
+              <RadzenIcon Icon="fact_check" style="color: #9D1F16; font-size: 22px">
+              </RadzenIcon>
+              <RadzenHeading Size="H3" style="color: #6d787d; margin-left: 16px" Text="BC Scan Admin">
+              </RadzenHeading>
+            </div>
+            <div class="col-md-12 justify-content-start d-flex" style="margin-top: 10px">
+              <RadzenLabel style="margin-bottom: 50px" Text="Dieses Modul ermöglicht die Administration für Benutzer, Geräte und Protokolle und ist eine umfassende Lösung zur Steuerung, Überwachung und Verwaltung kritischer Aspekte in 'BC Scan'. Es ermöglicht eine effektive Administration, Sicherheitskontrolle und Berichterstattung, um die Funktionalität und Integrität von 'BC Scan' zu gewährleisten.">
+              </RadzenLabel>
+            </div>
+            <RadzenButton  Text="Öffnen" Variant="Variant.Outlined" Click="@Button2Click" class="card-footer">
+            </RadzenButton>
+          </ChildContent>
+        </RadzenCard>
+      </div>
+    </div>
+    <div style="padding-bottom: 16px; padding-top: 16px" class="row">
+      <div class="col-md-4">
+        <RadzenCard style="height: 100%; padding-bottom: 16px; padding-left: 16px; padding-right: 16px; padding-top: 16px">
+          <ChildContent>
+            <div class="col-md-12 justify-content-start d-flex">
+              <RadzenIcon Icon="table_chart" style="color: #9D1F16; font-size: 22px">
+              </RadzenIcon>
+              <RadzenHeading Size="H3" style="color: #6d787d; margin-left: 16px" Text="Außendienst Informationssystem">
+              </RadzenHeading>
+            </div>
+            <div class="col-md-12 justify-content-start d-flex" style="margin-top: 10px">
+              <RadzenLabel style="margin-bottom: 50px" Text="Dises Modul bietet einen einfachen Zugriff auf ein leistungsstarkes System, das speziell für die Bedürfnisse des Außendienstes entwickelt wurde. Dieses Modul ermöglicht es den Außendienstmitarbeitern, wichtige Informationen, Ressourcen und Werkzeuge effizient zu nutzen, um ihre Aktivitäten und Interaktionen mit Kunden optimal zu verwalten.">
+              </RadzenLabel>
+            </div>
+            <RadzenButton  Text="Öffnen" Variant="Variant.Outlined" Click="@Button3Click" class="card-footer">
+            </RadzenButton>
+          </ChildContent>
+        </RadzenCard>
+      </div>
+      <div class="col-md-4">
+        <RadzenCard style="height: 100%; padding-bottom: 16px; padding-left: 16px; padding-right: 16px; padding-top: 16px">
+          <ChildContent>
+            <div class="col-md-12 justify-content-start d-flex">
+              <RadzenIcon Icon="thumb_up" style="color: #9D1F16; font-size: 22px">
+              </RadzenIcon>
+              <RadzenHeading Size="H3" style="color: #6d787d; margin-left: 16px" Text="IT Support">
+              </RadzenHeading>
+            </div>
+            <div class="col-md-12 justify-content-start d-flex" style="margin-top: 10px">
+              <RadzenLabel style="margin-bottom: 50px" Text="Diese Modul fungiert ähnlich wie ein effizientes Ticketsystem, das Mitarbeitern die Möglichkeit bietet, Supportanfragen per E-Mail einzureichen. Dieses System optimiert den gesamten Supportprozess, indem es klare Strukturen und eine reibungslose Kommunikation zwischen Mitarbeitern und dem IT-Team gewährleistet.">
+              </RadzenLabel>
+            </div>
+            <RadzenButton  Text="Öffnen" Variant="Variant.Outlined" Click="@Button4Click" class="card-footer">
+            </RadzenButton>
+          </ChildContent>
+        </RadzenCard>
+      </div>
+      <div class="col-md-4">
+        <RadzenCard style="height: 100%; padding-bottom: 16px; padding-left: 16px; padding-right: 16px; padding-top: 16px">
+          <ChildContent>
+            <div class="col-md-12 justify-content-start d-flex">
+              <RadzenIcon Icon="school" style="color: #9D1F16; font-size: 22px">
+              </RadzenIcon>
+              <RadzenHeading Size="H3" style="color: #6d787d; margin-left: 16px" Text="IT Wissensdatenbank">
+              </RadzenHeading>
+            </div>
+            <div class="col-md-12 justify-content-start d-flex" style="margin-top: 10px">
+              <RadzenLabel style="margin-bottom: 50px" Text="Dieses Modul enthält eine umfassende Informationsquelle, die Benutzern einen einfachen Zugriff auf relevantes Wissen, bewährte Verfahren, Anleitungen und Lösungen bietet. Dieses Modul fungiert als wertvolle Ressource, um Benutzern eine Selbsthilfeplattform zu bieten und sicherzustellen, dass sie effizient auf qualitativ hochwertige Informationen zugreifen können.">
+              </RadzenLabel>
+            </div>
+            <RadzenButton  Text="Öffnen" Variant="Variant.Outlined" Click="@Button5Click" class="card-footer">
+            </RadzenButton>
+          </ChildContent>
+        </RadzenCard>
+      </div>
+    </div>
+  </ChildContent>
+</RadzenContent>
+<RadzenContent Container="dashboard">
+</RadzenContent>

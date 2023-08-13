@@ -26600,3 +26600,11 @@ button.rz-colorpicker-trigger .rz-fileupload-row .rz-paginator-element .rz-icon-
 .rz-html-editor {
   border-radius: 0;
 }
+
+.card-footer {
+  background-color: green;
+  text-align: right;
+  position: absolute;
+  bottom: 16px;
+  right: 32px;
+}

@@ -39,5 +39,15 @@ namespace OptimoBcTools.Layouts
             await InvokeAsync(() => { sidebar0.Toggle(); });
 await InvokeAsync(() => { body0.Toggle(); });
         }
+
+        protected async System.Threading.Tasks.Task Button0Click(MouseEventArgs args)
+        {
+            UriHelper.NavigateTo("suchen");
+        }
+
+        protected async System.Threading.Tasks.Task Button2Click(MouseEventArgs args)
+        {
+            UriHelper.NavigateTo("einstellungen");
+        }
     }
 }

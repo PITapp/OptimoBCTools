@@ -20,16 +20,92 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Apps/Radzen/OptimoBCTools/client/Pages/BcScanDevice.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmNTY2FuRGV2aWNlLnJhem9y
+[C:/Apps/Radzen/OptimoBCTools/client/Pages/AiInformationssystem.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWlJbmZvcm1hdGlvbnNzeXN0ZW0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Apps/Radzen/OptimoBCTools/client/Pages/Test1.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdDEucmF6b3I=
+[C:/Apps/Radzen/OptimoBCTools/client/Pages/BcAnalysen.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmNBbmFseXNlbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Apps/Radzen/OptimoBCTools/client/Pages/Test2.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdDIucmF6b3I=
+[C:/Apps/Radzen/OptimoBCTools/client/Pages/BcAnalysen0001.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmNBbmFseXNlbjAwMDEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Apps/Radzen/OptimoBCTools/client/Pages/BcAnalysenAdmin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmNBbmFseXNlbkFkbWluLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Apps/Radzen/OptimoBCTools/client/Pages/BcAnalysenEinstellungen.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmNBbmFseXNlbkVpbnN0ZWxsdW5nZW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Apps/Radzen/OptimoBCTools/client/Pages/BcAnalysenGeschaeftsfuehrung.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmNBbmFseXNlbkdlc2NoYWVmdHNmdWVocnVuZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Apps/Radzen/OptimoBCTools/client/Pages/BcAnalysenSuchen.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmNBbmFseXNlblN1Y2hlbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Apps/Radzen/OptimoBCTools/client/Pages/BcScanAdmin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmNTY2FuQWRtaW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Apps/Radzen/OptimoBCTools/client/Pages/Dashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Apps/Radzen/OptimoBCTools/client/Pages/Einstellungen.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWluc3RlbGx1bmdlbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Apps/Radzen/OptimoBCTools/client/Pages/ItSupport.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXRTdXBwb3J0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Apps/Radzen/OptimoBCTools/client/Pages/ItWissensdatenbank.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXRXaXNzZW5zZGF0ZW5iYW5rLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Apps/Radzen/OptimoBCTools/client/Pages/PiTapp.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGlUYXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Apps/Radzen/OptimoBCTools/client/Pages/Suchen.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VjaGVuLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Apps/Radzen/OptimoBCTools/client/Pages/Version.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVyc2lvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Apps/Radzen/OptimoBCTools/client/Shared/AiInformationssystemLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEFpSW5mb3JtYXRpb25zc3lzdGVtTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Apps/Radzen/OptimoBCTools/client/Shared/BcAnalysenAdminLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEJjQW5hbHlzZW5BZG1pbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Apps/Radzen/OptimoBCTools/client/Shared/BcAnalysenLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEJjQW5hbHlzZW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Apps/Radzen/OptimoBCTools/client/Shared/BcScanAdminLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEJjU2NhbkFkbWluTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Apps/Radzen/OptimoBCTools/client/Shared/DashboardLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXERhc2hib2FyZExheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Apps/Radzen/OptimoBCTools/client/Shared/ItSupportLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEl0U3VwcG9ydExheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Apps/Radzen/OptimoBCTools/client/Shared/ItWissensdatenbankLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEl0V2lzc2Vuc2RhdGVuYmFua0xheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Apps/Radzen/OptimoBCTools/client/Shared/LoginLayout.razor]

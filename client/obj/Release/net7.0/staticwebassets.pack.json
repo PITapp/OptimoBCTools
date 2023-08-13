@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\service-worker.js"
     },
     {
+      "Id": "C:\\Apps\\Radzen\\OptimoBCTools\\client\\wwwroot\\assets\\css\\fluent copy.css",
+      "PackagePath": "staticwebassets\\assets\\css\\fluent copy.css"
+    },
+    {
       "Id": "C:\\Apps\\Radzen\\OptimoBCTools\\client\\wwwroot\\assets\\css\\fluent.css",
       "PackagePath": "staticwebassets\\assets\\css\\fluent.css"
     },
