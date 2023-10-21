@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Components.Web;
 using Radzen;
 using Radzen.Blazor;
 using OptimoBcTools.Models.DbOptimoBcLive;
+using OptimoBcTools.Models.DbOptimo2003;
 using OptimoBcTools.Client.Pages;
 
 namespace OptimoBcTools.Pages
@@ -46,5 +47,8 @@ namespace OptimoBcTools.Pages
 
         [Inject]
         protected DbOptimoBcLiveService DbOptimoBcLive { get; set; }
+
+        [Inject]
+        protected DbOptimo2003Service DbOptimo2003 { get; set; }
     }
 }

@@ -838,4 +838,4 @@ C:\Apps\Radzen\OptimoBCTools\client\obj\Release\net7.0\OptimoBcTools.Client.dll
 C:\Apps\Radzen\OptimoBCTools\client\obj\Release\net7.0\refint\OptimoBcTools.Client.dll
 C:\Apps\Radzen\OptimoBCTools\client\obj\Release\net7.0\OptimoBcTools.Client.pdb
 C:\Apps\Radzen\OptimoBCTools\client\obj\Release\net7.0\ref\OptimoBcTools.Client.dll
-C:\Apps\Radzen\OptimoBCTools\client\obj\Release\net7.0\build-gz\f84m8A89.gz
+C:\Apps\Radzen\OptimoBCTools\client\obj\Release\net7.0\build-gz\l3Ca2oX7.gz

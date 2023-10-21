@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components;
 using OptimoBcTools.Models;
 using OptimoBcTools.Models.DbOptimoBcLive;
+using OptimoBcTools.Models.DbOptimo2003;
 using Radzen;
 
 namespace OptimoBcTools

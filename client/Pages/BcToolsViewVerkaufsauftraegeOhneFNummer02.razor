@@ -1,0 +1,37 @@
+﻿@page "/bc-tools-view-verkaufsauftraege-ohne-f-nummer-02"
+@layout DashboardLayout
+@inherits OptimoBcTools.Pages.BcToolsViewVerkaufsauftraegeOhneFNummer02Component
+
+@using Radzen
+@using Radzen.Blazor
+@using OptimoBcTools.Models.DbOptimoBcLive
+@using OptimoBcTools.Models.DbOptimo2003
+<PageTitle>BcToolsViewVerkaufsauftraegeOhneFNummer02</PageTitle>
+<RadzenContent Container="dashboard">
+  <ChildContent>
+    <RadzenHeading Size="H1" Text="BcToolsViewVerkaufsauftraegeOhneFNummer02">
+    </RadzenHeading>
+    <div class="row">
+      <div class="col-md-12">
+        <RadzenDataGrid @ref="grid0" AllowFiltering="true" FilterMode="Radzen.FilterMode.Advanced" AllowPaging="true" AllowSorting="true" Data="@getBcToolsViewVerkaufsauftraegeOhneFNummer02sResult" Count="@getBcToolsViewVerkaufsauftraegeOhneFNummer02sCount" TItem="OptimoBcTools.Models.DbOptimo2003.BcToolsViewVerkaufsauftraegeOhneFNummer02" LoadData="@Grid0LoadData">
+          <Columns>
+            <RadzenDataGridColumn TItem="OptimoBcTools.Models.DbOptimo2003.BcToolsViewVerkaufsauftraegeOhneFNummer02" Property="Warenausgangsdatum" FormatString="{0:d}" Title="Warenausgangsdatum">
+            </RadzenDataGridColumn>
+            <RadzenDataGridColumn TItem="OptimoBcTools.Models.DbOptimo2003.BcToolsViewVerkaufsauftraegeOhneFNummer02" Property="VerkaufsauftragNr" Title="Verkaufsauftrag Nr">
+            </RadzenDataGridColumn>
+            <RadzenDataGridColumn TItem="OptimoBcTools.Models.DbOptimo2003.BcToolsViewVerkaufsauftraegeOhneFNummer02" Property="ArtikelNr" Title="Artikel Nr">
+            </RadzenDataGridColumn>
+            <RadzenDataGridColumn TItem="OptimoBcTools.Models.DbOptimo2003.BcToolsViewVerkaufsauftraegeOhneFNummer02" Property="ArtikelBez" Title="Artikel Bez">
+            </RadzenDataGridColumn>
+            <RadzenDataGridColumn TItem="OptimoBcTools.Models.DbOptimo2003.BcToolsViewVerkaufsauftraegeOhneFNummer02" Property="SetArtikelNr" Title="Set Artikel Nr">
+            </RadzenDataGridColumn>
+            <RadzenDataGridColumn TItem="OptimoBcTools.Models.DbOptimo2003.BcToolsViewVerkaufsauftraegeOhneFNummer02" Property="SetArtikelBez" Title="Set Artikel Bez">
+            </RadzenDataGridColumn>
+            <RadzenDataGridColumn TItem="OptimoBcTools.Models.DbOptimo2003.BcToolsViewVerkaufsauftraegeOhneFNummer02" Property="GeplantesLieferdatum" FormatString="{0:d}" Title="Geplantes Lieferdatum">
+            </RadzenDataGridColumn>
+          </Columns>
+        </RadzenDataGrid>
+      </div>
+    </div>
+  </ChildContent>
+</RadzenContent>

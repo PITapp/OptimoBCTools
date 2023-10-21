@@ -29,6 +29,8 @@ namespace OptimoBcTools
 
             builder.Services.AddScoped<DbOptimoBcLiveService>();
 
+            builder.Services.AddScoped<DbOptimo2003Service>();
+
             OnConfigureBuilder(builder);
 
             var host = builder.Build();

@@ -1,7 +1,8 @@
 {
   "cssFiles": [],
   "dataSources": [
-    "dbOptimoBCLive"
+    "dbOptimoBCLive",
+    "dbOptimo2003"
   ],
   "generator": "@radzen/blazor-server",
   "https": false,
@@ -42,7 +43,8 @@
     "BCAnalysenSuchen",
     "ITSupport",
     "ITWissensdatenbank",
-    "AIInformationssystem"
+    "AIInformationssystem",
+    "BcToolsViewVerkaufsauftraegeOhneFNummer02"
   ],
   "pages": [
     "BCAnalysen",
@@ -59,7 +61,8 @@
     "BCAnalysenSuchen",
     "ITSupport",
     "ITWissensdatenbank",
-    "AIInformationssystem"
+    "AIInformationssystem",
+    "BcToolsViewVerkaufsauftraegeOhneFNummer02"
   ],
   "port": 8000,
   "pwa": true,

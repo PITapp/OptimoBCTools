@@ -556,6 +556,117 @@
             "paddingTop": "16px"
           },
           "type": "row"
+        },
+        {
+          "components": [
+            {
+              "class": "col-md-4",
+              "components": [
+                {
+                  "components": [
+                    {
+                      "class": "col-md-12 justify-content-start d-flex",
+                      "components": [
+                        {
+                          "icon": "table_chart",
+                          "name": "icon6",
+                          "style": {
+                            "color": "#9D1F16",
+                            "fontSize": "22px"
+                          },
+                          "type": "icon"
+                        },
+                        {
+                          "name": "heading6",
+                          "size": "H3",
+                          "style": {
+                            "color": "#6d787d",
+                            "marginLeft": "16px"
+                          },
+                          "text": "Optimo 2003 Datenbank",
+                          "type": "heading"
+                        }
+                      ],
+                      "name": "col8",
+                      "type": "col"
+                    },
+                    {
+                      "class": "col-md-12 justify-content-start d-flex",
+                      "components": [
+                        {
+                          "name": "label6",
+                          "style": {
+                            "marginBottom": "50px"
+                          },
+                          "template": "",
+                          "text": "Dises Modul bietet einen einfachen Zugriff auf ein leistungsstarkes System, das speziell für die Bedürfnisse des Außendienstes entwickelt wurde. Dieses Modul ermöglicht es den Außendienstmitarbeitern, wichtige Informationen, Ressourcen und Werkzeuge effizient zu nutzen, um ihre Aktivitäten und Interaktionen mit Kunden optimal zu verwalten.",
+                          "type": "label"
+                        }
+                      ],
+                      "name": "col11",
+                      "style": {
+                        "marginTop": "10px"
+                      },
+                      "type": "col"
+                    },
+                    {
+                      "attributes": [
+                        {
+                          "name": "class",
+                          "value": "card-footer"
+                        }
+                      ],
+                      "events": {
+                        "click": [
+                          {
+                            "path": "bc-tools-view-verkaufsauftraege-ohne-f-nummer-02",
+                            "type": "navigate"
+                          }
+                        ]
+                      },
+                      "icon": "",
+                      "name": "button6",
+                      "style": {},
+                      "template": "",
+                      "text": "Öffnen",
+                      "type": "button",
+                      "variant": "Variant.Outlined"
+                    }
+                  ],
+                  "name": "card6",
+                  "style": {
+                    "height": "100%",
+                    "paddingBottom": "16px",
+                    "paddingLeft": "16px",
+                    "paddingRight": "16px",
+                    "paddingTop": "16px"
+                  },
+                  "type": "card",
+                  "visible": true
+                }
+              ],
+              "name": "col4",
+              "type": "col"
+            },
+            {
+              "class": "col-md-4",
+              "components": [],
+              "name": "col15",
+              "type": "col"
+            },
+            {
+              "class": "col-md-4",
+              "components": [],
+              "name": "col24",
+              "type": "col"
+            }
+          ],
+          "name": "row2",
+          "style": {
+            "paddingBottom": "16px",
+            "paddingTop": "16px"
+          },
+          "type": "row"
         }
       ],
       "container": "dashboard",

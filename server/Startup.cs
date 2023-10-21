@@ -83,6 +83,8 @@ namespace OptimoBcTools
             oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanViewProtokollLadeliste>("BcScanViewProtokollLadelistes");
             oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanViewProtokollUmlagern>("BcScanViewProtokollUmlagerns");
             oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimoBcLive.BcScanViewUmlagerungLetzteNummer>("BcScanViewUmlagerungLetzteNummers");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimo2003.BcToolsViewVerkaufsauftraegeOhneFNummer01>("BcToolsViewVerkaufsauftraegeOhneFNummer01s");
+            oDataBuilder.EntitySet<OptimoBcTools.Models.DbOptimo2003.BcToolsViewVerkaufsauftraegeOhneFNummer02>("BcToolsViewVerkaufsauftraegeOhneFNummer02s");
 
             this.OnConfigureOData(oDataBuilder);
 
@@ -91,12 +93,20 @@ namespace OptimoBcTools
             services.AddControllers().AddOData(opt => { 
               opt.AddRouteComponents("odata/dbOptimoBCLive", model).Count().Filter().OrderBy().Expand().Select().SetMaxTop(null).TimeZone = TimeZoneInfo.Utc;
             });
+            services.AddControllers().AddOData(opt => { 
+              opt.AddRouteComponents("odata/dbOptimo2003", model).Count().Filter().OrderBy().Expand().Select().SetMaxTop(null).TimeZone = TimeZoneInfo.Utc;
+            });
 
             
 
             services.AddDbContext<OptimoBcTools.Data.DbOptimoBcLiveContext>(options =>
             {
               options.UseSqlServer(Configuration.GetConnectionString("dbOptimoBCLiveConnection"));
+            });
+
+            services.AddDbContext<OptimoBcTools.Data.DbOptimo2003Context>(options =>
+            {
+              options.UseSqlServer(Configuration.GetConnectionString("dbOptimo2003Connection"));
             });
 
             services.AddRazorPages();

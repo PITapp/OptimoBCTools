@@ -1,0 +1,322 @@
+{
+  "info": {
+    "title": "dbOptimo2003",
+    "x-type": "odata",
+    "x-connector": "mssql",
+    "x-connector-version": 13,
+    "x-infer-aspnet": false,
+    "x-infer-tables": true,
+    "x-infer-relations": false,
+    "x-infer-views": true,
+    "x-infer-sps": false
+  },
+  "definitions": {
+    "BcToolsViewVerkaufsauftraegeOhneFNummer01": {
+      "x-view": true,
+      "x-table": "dbo.BCToolsViewVerkaufsauftraegeOhneFNummer01",
+      "resource": "BcToolsViewVerkaufsauftraegeOhneFNummer01s",
+      "required": [
+        "VerkaufsauftragNr",
+        "ArtikelNrSalesLine",
+        "ArtikelBezSalesLine",
+        "Warenausgangsdatum",
+        "Fertigstellungsdatum",
+        "GewnschtesLieferdatum",
+        "GeplantesLieferdatum",
+        "GeplantesWarenausgangsdatum",
+        "MengeGeliefert"
+      ],
+      "properties": {
+        "VerkaufsauftragNr": {
+          "x-nullable": false,
+          "type": "string",
+          "dbType": "nvarchar",
+          "length": 20,
+          "x-key": true,
+          "x-virtual": true
+        },
+        "ArtikelNrSalesLine": {
+          "x-nullable": false,
+          "type": "string",
+          "dbType": "nvarchar",
+          "length": 20
+        },
+        "ArtikelBezSalesLine": {
+          "x-nullable": false,
+          "type": "string",
+          "dbType": "nvarchar",
+          "length": 50
+        },
+        "Warenausgangsdatum": {
+          "x-nullable": false,
+          "type": "string",
+          "format": "date-time",
+          "dbType": "datetime",
+          "x-datetime": "datetime"
+        },
+        "Fertigstellungsdatum": {
+          "x-nullable": false,
+          "type": "string",
+          "format": "date-time",
+          "dbType": "datetime",
+          "x-datetime": "datetime"
+        },
+        "GewnschtesLieferdatum": {
+          "x-original-name": "GewünschtesLieferdatum",
+          "x-nullable": false,
+          "type": "string",
+          "format": "date-time",
+          "dbType": "datetime",
+          "x-datetime": "datetime"
+        },
+        "GeplantesLieferdatum": {
+          "x-nullable": false,
+          "type": "string",
+          "format": "date-time",
+          "dbType": "datetime",
+          "x-datetime": "datetime"
+        },
+        "GeplantesWarenausgangsdatum": {
+          "x-nullable": false,
+          "type": "string",
+          "format": "date-time",
+          "dbType": "datetime",
+          "x-datetime": "datetime"
+        },
+        "ArtikelNrBom": {
+          "type": "string",
+          "dbType": "nvarchar",
+          "length": 20
+        },
+        "ArtikelBezBom": {
+          "type": "string",
+          "dbType": "nvarchar",
+          "length": 50
+        },
+        "ArtikelNr": {
+          "type": "string",
+          "dbType": "nvarchar",
+          "length": 20
+        },
+        "ArtikelBez": {
+          "type": "string",
+          "dbType": "nvarchar",
+          "length": 50
+        },
+        "MengeGeliefert": {
+          "x-nullable": false,
+          "x-precision": 38,
+          "x-scale": 20,
+          "type": "number",
+          "format": "decimal",
+          "dbType": "decimal"
+        },
+        "SetArtikelNr": {
+          "type": "string",
+          "dbType": "nvarchar",
+          "length": 20
+        },
+        "SetArtikelBez": {
+          "type": "string",
+          "dbType": "nvarchar",
+          "length": 50
+        }
+      }
+    },
+    "BcToolsViewVerkaufsauftraegeOhneFNummer02": {
+      "x-view": true,
+      "x-table": "dbo.BCToolsViewVerkaufsauftraegeOhneFNummer02",
+      "resource": "BcToolsViewVerkaufsauftraegeOhneFNummer02s",
+      "required": [
+        "Warenausgangsdatum",
+        "VerkaufsauftragNr",
+        "GeplantesLieferdatum"
+      ],
+      "properties": {
+        "Warenausgangsdatum": {
+          "x-nullable": false,
+          "type": "string",
+          "format": "date-time",
+          "dbType": "datetime",
+          "x-datetime": "datetime",
+          "x-key": true,
+          "x-virtual": true
+        },
+        "VerkaufsauftragNr": {
+          "x-nullable": false,
+          "type": "string",
+          "dbType": "nvarchar",
+          "length": 20
+        },
+        "ArtikelNr": {
+          "type": "string",
+          "dbType": "nvarchar",
+          "length": 20
+        },
+        "ArtikelBez": {
+          "type": "string",
+          "dbType": "nvarchar",
+          "length": 50
+        },
+        "SetArtikelNr": {
+          "type": "string",
+          "dbType": "nvarchar",
+          "length": 20
+        },
+        "SetArtikelBez": {
+          "type": "string",
+          "dbType": "nvarchar",
+          "length": 50
+        },
+        "GeplantesLieferdatum": {
+          "x-nullable": false,
+          "type": "string",
+          "format": "date-time",
+          "dbType": "datetime",
+          "x-datetime": "datetime"
+        }
+      }
+    }
+  },
+  "paths": {
+    "/BcToolsViewVerkaufsauftraegeOhneFNummer01s": {
+      "get": {
+        "operationId": "getBcToolsViewVerkaufsauftraegeOhneFNummer01s",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "$filter",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "$orderby",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "$expand",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "$top",
+            "type": "integer"
+          },
+          {
+            "in": "query",
+            "name": "$skip",
+            "type": "integer"
+          },
+          {
+            "in": "query",
+            "name": "$count",
+            "type": "boolean"
+          },
+          {
+            "in": "query",
+            "name": "$format",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "$select",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "properties": {
+                "value": {
+                  "items": {
+                    "$ref": "#/definitions/BcToolsViewVerkaufsauftraegeOhneFNummer01"
+                  },
+                  "type": "array"
+                }
+              },
+              "type": "object"
+            }
+          },
+          "default": {
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/BcToolsViewVerkaufsauftraegeOhneFNummer02s": {
+      "get": {
+        "operationId": "getBcToolsViewVerkaufsauftraegeOhneFNummer02s",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "$filter",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "$orderby",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "$expand",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "$top",
+            "type": "integer"
+          },
+          {
+            "in": "query",
+            "name": "$skip",
+            "type": "integer"
+          },
+          {
+            "in": "query",
+            "name": "$count",
+            "type": "boolean"
+          },
+          {
+            "in": "query",
+            "name": "$format",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "$select",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "schema": {
+              "properties": {
+                "value": {
+                  "items": {
+                    "$ref": "#/definitions/BcToolsViewVerkaufsauftraegeOhneFNummer02"
+                  },
+                  "type": "array"
+                }
+              },
+              "type": "object"
+            }
+          },
+          "default": {
+            "schema": {
+              "$ref": "#/definitions/Error"
+            }
+          }
+        }
+      }
+    }
+  },
+  "basePath": "/odata/dbOptimo2003",
+  "host": "localhost:5001",
+  "schemes": [
+    "https"
+  ]
+}

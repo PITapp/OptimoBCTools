@@ -6,6 +6,7 @@
 @using Radzen
 @using Radzen.Blazor
 @using OptimoBcTools.Models.DbOptimoBcLive
+@using OptimoBcTools.Models.DbOptimo2003
 <PageTitle>Dashboard</PageTitle>
 <RadzenContent Container="dashboard">
   <ChildContent>
@@ -119,6 +120,30 @@
             </RadzenButton>
           </ChildContent>
         </RadzenCard>
+      </div>
+    </div>
+    <div style="padding-bottom: 16px; padding-top: 16px" class="row">
+      <div class="col-md-4">
+        <RadzenCard style="height: 100%; padding-bottom: 16px; padding-left: 16px; padding-right: 16px; padding-top: 16px">
+          <ChildContent>
+            <div class="col-md-12 justify-content-start d-flex">
+              <RadzenIcon Icon="table_chart" style="color: #9D1F16; font-size: 22px">
+              </RadzenIcon>
+              <RadzenHeading Size="H3" style="color: #6d787d; margin-left: 16px" Text="Optimo 2003 Datenbank">
+              </RadzenHeading>
+            </div>
+            <div class="col-md-12 justify-content-start d-flex" style="margin-top: 10px">
+              <RadzenLabel style="margin-bottom: 50px" Text="Dises Modul bietet einen einfachen Zugriff auf ein leistungsstarkes System, das speziell für die Bedürfnisse des Außendienstes entwickelt wurde. Dieses Modul ermöglicht es den Außendienstmitarbeitern, wichtige Informationen, Ressourcen und Werkzeuge effizient zu nutzen, um ihre Aktivitäten und Interaktionen mit Kunden optimal zu verwalten.">
+              </RadzenLabel>
+            </div>
+            <RadzenButton  Text="Öffnen" Variant="Variant.Outlined" Click="@Button6Click" class="card-footer">
+            </RadzenButton>
+          </ChildContent>
+        </RadzenCard>
+      </div>
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4">
       </div>
     </div>
   </ChildContent>

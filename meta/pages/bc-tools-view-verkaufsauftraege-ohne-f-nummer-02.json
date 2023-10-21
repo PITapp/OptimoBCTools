@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "type": "content",
+      "container": "dashboard",
+      "components": [
+        {
+          "type": "heading",
+          "name": "pageTitle",
+          "size": "H1",
+          "text": "BcToolsViewVerkaufsauftraegeOhneFNummer02"
+        },
+        {
+          "type": "row",
+          "components": [
+            {
+              "type": "col",
+              "class": "col-md-12",
+              "components": [
+                {
+                  "name": "grid0",
+                  "allowFiltering": true,
+                  "filterMode": "advanced",
+                  "allowPaging": true,
+                  "allowSorting": true,
+                  "data": "${getBcToolsViewVerkaufsauftraegeOhneFNummer02sResult}",
+                  "events": {
+                    "loadData": [
+                      {
+                        "name": "dbOptimo2003.getBcToolsViewVerkaufsauftraegeOhneFNummer02s",
+                        "parameters": [
+                          {
+                            "name": "$top",
+                            "value": "event.top"
+                          },
+                          {
+                            "name": "$skip",
+                            "value": "event.skip"
+                          },
+                          {
+                            "name": "$count",
+                            "value": "event.top != null && event.skip != null"
+                          },
+                          {
+                            "name": "$filter",
+                            "value": "${event.filter}"
+                          },
+                          {
+                            "name": "$orderby",
+                            "value": "${event.orderby}"
+                          }
+                        ],
+                        "then": [
+                          {
+                            "name": "getBcToolsViewVerkaufsauftraegeOhneFNummer02sResult",
+                            "type": "set",
+                            "value": "${result.Value.AsODataEnumerable()}",
+                            "valueType": "IEnumerable<OptimoBcTools.Models.DbOptimo2003.BcToolsViewVerkaufsauftraegeOhneFNummer02>"
+                          },
+                          {
+                            "name": "getBcToolsViewVerkaufsauftraegeOhneFNummer02sCount",
+                            "type": "set",
+                            "value": "${result.Count}",
+                            "valueType": "int"
+                          }
+                        ],
+                        "type": "invoke",
+                        "error": [
+                          {
+                            "detail": "Unable to load BcToolsViewVerkaufsauftraegeOhneFNummer02s",
+                            "severity": "error",
+                            "summary": "Error",
+                            "type": "notify"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "title": "",
+                  "columns": [
+                    {
+                      "property": "Warenausgangsdatum",
+                      "formatString": "{0:d}",
+                      "title": "Warenausgangsdatum"
+                    },
+                    {
+                      "property": "VerkaufsauftragNr",
+                      "title": "Verkaufsauftrag Nr"
+                    },
+                    {
+                      "property": "ArtikelNr",
+                      "title": "Artikel Nr"
+                    },
+                    {
+                      "property": "ArtikelBez",
+                      "title": "Artikel Bez"
+                    },
+                    {
+                      "property": "SetArtikelNr",
+                      "title": "Set Artikel Nr"
+                    },
+                    {
+                      "property": "SetArtikelBez",
+                      "title": "Set Artikel Bez"
+                    },
+                    {
+                      "property": "GeplantesLieferdatum",
+                      "formatString": "{0:d}",
+                      "title": "Geplantes Lieferdatum"
+                    }
+                  ],
+                  "type": "datagrid",
+                  "count": "${getBcToolsViewVerkaufsauftraegeOhneFNummer02sCount}",
+                  "itemType": "OptimoBcTools.Models.DbOptimo2003.BcToolsViewVerkaufsauftraegeOhneFNummer02"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "events": {
+    "load": []
+  },
+  "name": "BcToolsViewVerkaufsauftraegeOhneFNummer02",
+  "layout": "Dashboard"
+}

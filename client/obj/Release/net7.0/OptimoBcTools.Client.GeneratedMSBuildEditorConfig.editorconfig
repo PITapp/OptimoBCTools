@@ -52,6 +52,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmNTY2FuQWRtaW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Apps/Radzen/OptimoBCTools/client/Pages/BcToolsViewVerkaufsauftraegeOhneFNummer02.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmNUb29sc1ZpZXdWZXJrYXVmc2F1ZnRyYWVnZU9obmVGTnVtbWVyMDIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Apps/Radzen/OptimoBCTools/client/Pages/Dashboard.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
